@@ -1,0 +1,2218 @@
+<?xml version="1.0" encoding="utf-8"?>
+<forecast city="Кемерово" xmlns="http://weather.yandex.ru/forecast" country="Россия" region="64" lon="86.052433" zoom="10" id="29642" source="Station" country_id="1ed1c408a4ac822b728a2077a1d9935c" link="http://pogoda.yandex.ru/kemerovo/" part_id="5f1a76eb94a6e7651cd0d4296d843d40" geoid="64" lat="55.371234" exactname="Кемерово" part="Кемеровская область" slug="kemerovo">
+    <fact>
+        <station lang="ru" distance="11">Кемерово</station>
+        <station lang="en" distance="11">Kemerovo Airport</station>
+        <observation_time>2014-02-06T10:30:00</observation_time>
+        <uptime>2014-02-06T11:07:40</uptime>
+        <temperature color="A5CAE6" plate="59b1f6">-29</temperature>
+        <weather_condition code="overcast"/>
+        <image type="1">5</image>
+        <image-v2 color="007dcb" type="colored">ovc_-28</image-v2>
+        <image-v3 type="mono">ovc</image-v3>
+        <weather_type>облачно</weather_type>
+        <weather_type_short>облачно</weather_type_short>
+        <weather_type_tt>болытлы</weather_type_tt>
+        <weather_type_short_tt>болытлы</weather_type_short_tt>
+        <weather_type_tr>bulutlu</weather_type_tr>
+        <weather_type_short_tr>bulutlu</weather_type_short_tr>
+        <weather_type_kz>бұлтты</weather_type_kz>
+        <weather_type_short_kz>бұлтты</weather_type_short_kz>
+        <weather_type_ua>хмарно</weather_type_ua>
+        <weather_type_short_ua>хмарно</weather_type_short_ua>
+        <weather_type_by>воблачна</weather_type_by>
+        <weather_type_short_by>воблачна</weather_type_short_by>
+        <wind_direction>se</wind_direction>
+        <wind_speed>2.5</wind_speed>
+        <humidity>83</humidity>
+        <pressure units="torr">770</pressure>
+        <mslp_pressure units="hPa">1042</mslp_pressure>
+        <daytime>d</daytime>
+        <water_temperature>0</water_temperature>
+        <season type="calendar">winter</season>
+        <ipad_image>2-день-зима</ipad_image>
+    </fact>
+    <yesterday id="134176706">
+        <station lang="ru" distance="11">Кемерово</station>
+        <station lang="en" distance="11">Kemerovo Airport</station>
+        <observation_time>2014-02-05T10:30:00</observation_time>
+        <uptime>2014-02-05T11:05:54</uptime>
+        <temperature color="ABCDE7" plate="60b4f5">-27</temperature>
+        <weather_condition code="cloudy"/>
+        <image type="1">6</image>
+        <image-v2 color="0083d1" type="colored">bkn_d_-26</image-v2>
+        <image-v3 type="mono">bkn_d</image-v3>
+        <weather_type>облачно с прояснениями</weather_type>
+        <weather_type_short>обл. с проясн.</weather_type_short>
+        <weather_type_tt>аязучан болытлы</weather_type_tt>
+        <weather_type_short_tt>аязуч. бол.</weather_type_short_tt>
+        <weather_type_tr>parçalı bulutlu</weather_type_tr>
+        <weather_type_short_tr>prç. bulutlu</weather_type_short_tr>
+        <weather_type_kz>ауыспалы бұлтты</weather_type_kz>
+        <weather_type_short_kz>ауыспалы бұлтты</weather_type_short_kz>
+        <weather_type_ua>хмарно з проясненнями </weather_type_ua>
+        <weather_type_short_ua>хмарно з проясн.</weather_type_short_ua>
+        <weather_type_by>воблачна з праясненнямі</weather_type_by>
+        <weather_type_short_by>вобл. з праясн.</weather_type_short_by>
+        <wind_direction>calm</wind_direction>
+        <wind_speed>0.0</wind_speed>
+        <humidity>91</humidity>
+        <pressure units="torr">764</pressure>
+        <mslp_pressure units="hPa">1034</mslp_pressure>
+        <water_temperature>0</water_temperature>
+        <season type="calendar">winter</season>
+        <ipad_image>1-день-зима</ipad_image>
+    </yesterday>
+    <informer>
+        <temperature color="9BC5E5" type="night">-32</temperature>
+        <temperature color="C5DAEA" type="tomorrow">-16</temperature>
+    </informer>
+    <day date="2014-02-06">
+        <sunrise>09:59</sunrise>
+        <sunset>19:01</sunset>
+        <moon_phase code="first-quarter">12</moon_phase>
+        <moonrise>12:17</moonrise>
+        <moonset>02:38</moonset>
+        <biomet index="0" geomag="1">
+            <message code="meteosens-favorable"/>
+            <message code="solar-weak"/>
+        </biomet>
+        <day_part typeid="1" type="morning">
+            <temperature>-32</temperature>
+            <temperature-data>
+                <avg bgcolor="9BC5E5">-32</avg>
+            </temperature-data>
+            <weather_condition code="cloudy"/>
+            <image type="1">n6</image>
+            <image-v2 color="007ec8" type="colored">bkn_n_-32</image-v2>
+            <image-v3 type="mono">bkn_n</image-v3>
+            <weather_type>облачно с прояснениями</weather_type>
+            <weather_type_short>обл. с проясн.</weather_type_short>
+            <weather_type_tt>аязучан болытлы</weather_type_tt>
+            <weather_type_short_tt>аязуч. бол.</weather_type_short_tt>
+            <weather_type_tr>parçalı bulutlu</weather_type_tr>
+            <weather_type_short_tr>prç. bulutlu</weather_type_short_tr>
+            <weather_type_kz>ауыспалы бұлтты</weather_type_kz>
+            <weather_type_short_kz>ауыспалы бұлтты</weather_type_short_kz>
+            <weather_type_ua>хмарно з проясненнями </weather_type_ua>
+            <weather_type_short_ua>хмарно з проясн.</weather_type_short_ua>
+            <weather_type_by>воблачна з праясненнямі</weather_type_by>
+            <weather_type_short_by>вобл. з праясн.</weather_type_short_by>
+            <wind_direction>se</wind_direction>
+            <wind_speed>2.8</wind_speed>
+            <humidity>77</humidity>
+            <pressure units="torr">772</pressure>
+            <mslp_pressure units="hPa">1046</mslp_pressure>
+        </day_part>
+        <day_part typeid="2" type="day">
+            <temperature_from>-30</temperature_from>
+            <temperature_to>-24</temperature_to>
+            <temperature-data>
+                <avg bgcolor="ABCDE7">-27</avg>
+                <from>-30</from>
+                <to>-24</to>
+            </temperature-data>
+            <weather_condition code="clear"/>
+            <image type="1">7</image>
+            <image-v2 color="0083d1" type="colored">skc_d_-26</image-v2>
+            <image-v3 type="mono">skc_d</image-v3>
+            <weather_type>ясно</weather_type>
+            <weather_type_short>ясно</weather_type_short>
+            <weather_type_tt>аяз</weather_type_tt>
+            <weather_type_short_tt>аяз</weather_type_short_tt>
+            <weather_type_tr>açık</weather_type_tr>
+            <weather_type_short_tr>açık</weather_type_short_tr>
+            <weather_type_kz>ашық</weather_type_kz>
+            <weather_type_short_kz>ашық</weather_type_short_kz>
+            <weather_type_ua>ясно</weather_type_ua>
+            <weather_type_short_ua>ясно</weather_type_short_ua>
+            <weather_type_by>ясна</weather_type_by>
+            <weather_type_short_by>ясна</weather_type_short_by>
+            <wind_direction>se</wind_direction>
+            <wind_speed>2.2</wind_speed>
+            <humidity>72</humidity>
+            <pressure units="torr">773</pressure>
+            <mslp_pressure units="hPa">1047</mslp_pressure>
+        </day_part>
+        <day_part typeid="3" type="evening">
+            <temperature_from>-27</temperature_from>
+            <temperature_to>-24</temperature_to>
+            <temperature-data>
+                <avg bgcolor="B0CFE8">-25</avg>
+                <from>-27</from>
+                <to>-24</to>
+            </temperature-data>
+            <weather_condition code="clear"/>
+            <image type="1">n7</image>
+            <image-v2 color="0080d5" type="colored">skc_n_-24</image-v2>
+            <image-v3 type="mono">skc_n</image-v3>
+            <weather_type>ясно</weather_type>
+            <weather_type_short>ясно</weather_type_short>
+            <weather_type_tt>аяз</weather_type_tt>
+            <weather_type_short_tt>аяз</weather_type_short_tt>
+            <weather_type_tr>açık</weather_type_tr>
+            <weather_type_short_tr>açık</weather_type_short_tr>
+            <weather_type_kz>ашық</weather_type_kz>
+            <weather_type_short_kz>ашық</weather_type_short_kz>
+            <weather_type_ua>ясно</weather_type_ua>
+            <weather_type_short_ua>ясно</weather_type_short_ua>
+            <weather_type_by>ясна</weather_type_by>
+            <weather_type_short_by>ясна</weather_type_short_by>
+            <wind_direction>n</wind_direction>
+            <wind_speed>2.4</wind_speed>
+            <humidity>67</humidity>
+            <pressure units="torr">772</pressure>
+            <mslp_pressure units="hPa">1045</mslp_pressure>
+        </day_part>
+        <day_part typeid="4" type="night">
+            <temperature_from>-29</temperature_from>
+            <temperature_to>-28</temperature_to>
+            <temperature-data>
+                <avg bgcolor="A5CAE6">-28</avg>
+                <from>-29</from>
+                <to>-28</to>
+            </temperature-data>
+            <weather_condition code="clear"/>
+            <image type="1">n7</image>
+            <image-v2 color="007dcb" type="colored">skc_n_-28</image-v2>
+            <image-v3 type="mono">skc_n</image-v3>
+            <weather_type>ясно</weather_type>
+            <weather_type_short>ясно</weather_type_short>
+            <weather_type_tt>аяз</weather_type_tt>
+            <weather_type_short_tt>аяз</weather_type_short_tt>
+            <weather_type_tr>açık</weather_type_tr>
+            <weather_type_short_tr>açık</weather_type_short_tr>
+            <weather_type_kz>ашық</weather_type_kz>
+            <weather_type_short_kz>ашық</weather_type_short_kz>
+            <weather_type_ua>ясно</weather_type_ua>
+            <weather_type_short_ua>ясно</weather_type_short_ua>
+            <weather_type_by>ясна</weather_type_by>
+            <weather_type_short_by>ясна</weather_type_short_by>
+            <wind_direction>ne</wind_direction>
+            <wind_speed>4.6</wind_speed>
+            <humidity>77</humidity>
+            <pressure units="torr">770</pressure>
+            <mslp_pressure units="hPa">1043</mslp_pressure>
+        </day_part>
+        <day_part typeid="5" type="day_short">
+            <temperature>-24</temperature>
+            <temperature-data>
+                <avg bgcolor="B0CFE8">-24</avg>
+            </temperature-data>
+            <weather_condition code="clear"/>
+            <image type="1">7</image>
+            <image-v2 color="0080d5" type="colored">skc_d_-24</image-v2>
+            <image-v3 type="mono">skc_d</image-v3>
+            <weather_type>ясно</weather_type>
+            <weather_type_short>ясно</weather_type_short>
+            <weather_type_tt>аяз</weather_type_tt>
+            <weather_type_short_tt>аяз</weather_type_short_tt>
+            <weather_type_tr>açık</weather_type_tr>
+            <weather_type_short_tr>açık</weather_type_short_tr>
+            <weather_type_kz>ашық</weather_type_kz>
+            <weather_type_short_kz>ашық</weather_type_short_kz>
+            <weather_type_ua>ясно</weather_type_ua>
+            <weather_type_short_ua>ясно</weather_type_short_ua>
+            <weather_type_by>ясна</weather_type_by>
+            <weather_type_short_by>ясна</weather_type_short_by>
+            <wind_direction>se</wind_direction>
+            <wind_speed>2.2</wind_speed>
+            <humidity>72</humidity>
+            <pressure units="torr">773</pressure>
+            <mslp_pressure units="hPa">1047</mslp_pressure>
+        </day_part>
+        <day_part typeid="6" type="night_short">
+            <temperature>-32</temperature>
+            <temperature-data>
+                <avg bgcolor="9BC5E5">-32</avg>
+            </temperature-data>
+            <weather_condition code="clear"/>
+            <image type="1">n7</image>
+            <image-v2 color="007ec8" type="colored">skc_n_-32</image-v2>
+            <image-v3 type="mono">skc_n</image-v3>
+            <weather_type>ясно</weather_type>
+            <weather_type_short>ясно</weather_type_short>
+            <weather_type_tt>аяз</weather_type_tt>
+            <weather_type_short_tt>аяз</weather_type_short_tt>
+            <weather_type_tr>açık</weather_type_tr>
+            <weather_type_short_tr>açık</weather_type_short_tr>
+            <weather_type_kz>ашық</weather_type_kz>
+            <weather_type_short_kz>ашық</weather_type_short_kz>
+            <weather_type_ua>ясно</weather_type_ua>
+            <weather_type_short_ua>ясно</weather_type_short_ua>
+            <weather_type_by>ясна</weather_type_by>
+            <weather_type_short_by>ясна</weather_type_short_by>
+            <wind_direction>ne</wind_direction>
+            <wind_speed>4.6</wind_speed>
+            <humidity>77</humidity>
+            <pressure units="torr">770</pressure>
+            <mslp_pressure units="hPa">1043</mslp_pressure>
+        </day_part>
+        <hour at="0">
+            <temperature>-31</temperature>
+            <weather_condition code="cloudy"/>
+            <image type="1">n6</image>
+            <image-v2 color="007dcb" type="colored">bkn_n_-30</image-v2>
+            <image-v3 type="mono">bkn_n</image-v3>
+        </hour>
+        <hour at="1">
+            <temperature>-31</temperature>
+            <weather_condition code="cloudy"/>
+            <image type="1">n6</image>
+            <image-v2 color="007dcb" type="colored">bkn_n_-30</image-v2>
+            <image-v3 type="mono">bkn_n</image-v3>
+        </hour>
+        <hour at="2">
+            <temperature>-32</temperature>
+            <weather_condition code="cloudy"/>
+            <image type="1">n6</image>
+            <image-v2 color="007ec8" type="colored">bkn_n_-32</image-v2>
+            <image-v3 type="mono">bkn_n</image-v3>
+        </hour>
+        <hour at="3">
+            <temperature>-31</temperature>
+            <weather_condition code="partly-cloudy"/>
+            <image type="1">n6</image>
+            <image-v2 color="007dcb" type="colored">bkn_n_-30</image-v2>
+            <image-v3 type="mono">bkn_n</image-v3>
+        </hour>
+        <hour at="4">
+            <temperature>-31</temperature>
+            <weather_condition code="partly-cloudy"/>
+            <image type="1">n6</image>
+            <image-v2 color="007dcb" type="colored">bkn_n_-30</image-v2>
+            <image-v3 type="mono">bkn_n</image-v3>
+        </hour>
+        <hour at="5">
+            <temperature>-32</temperature>
+            <weather_condition code="partly-cloudy"/>
+            <image type="1">n6</image>
+            <image-v2 color="007ec8" type="colored">bkn_n_-32</image-v2>
+            <image-v3 type="mono">bkn_n</image-v3>
+        </hour>
+        <hour at="6">
+            <temperature>-32</temperature>
+            <weather_condition code="partly-cloudy"/>
+            <image type="1">n6</image>
+            <image-v2 color="007ec8" type="colored">bkn_n_-32</image-v2>
+            <image-v3 type="mono">bkn_n</image-v3>
+        </hour>
+        <hour at="7">
+            <temperature>-32</temperature>
+            <weather_condition code="partly-cloudy"/>
+            <image type="1">n6</image>
+            <image-v2 color="007ec8" type="colored">bkn_n_-32</image-v2>
+            <image-v3 type="mono">bkn_n</image-v3>
+        </hour>
+        <hour at="8">
+            <temperature>-32</temperature>
+            <weather_condition code="partly-cloudy"/>
+            <image type="1">n6</image>
+            <image-v2 color="007ec8" type="colored">bkn_n_-32</image-v2>
+            <image-v3 type="mono">bkn_n</image-v3>
+        </hour>
+        <hour at="9">
+            <temperature>-32</temperature>
+            <weather_condition code="cloudy"/>
+            <image type="1">n6</image>
+            <image-v2 color="007ec8" type="colored">bkn_n_-32</image-v2>
+            <image-v3 type="mono">bkn_n</image-v3>
+        </hour>
+        <hour at="10">
+            <temperature>-32</temperature>
+            <weather_condition code="cloudy"/>
+            <image type="1">6</image>
+            <image-v2 color="007ec8" type="colored">bkn_d_-32</image-v2>
+            <image-v3 type="mono">bkn_d</image-v3>
+        </hour>
+        <hour at="11">
+            <temperature>-32</temperature>
+            <weather_condition code="cloudy"/>
+            <image type="1">6</image>
+            <image-v2 color="007ec8" type="colored">bkn_d_-32</image-v2>
+            <image-v3 type="mono">bkn_d</image-v3>
+        </hour>
+        <hour at="12">
+            <temperature>-30</temperature>
+            <weather_condition code="clear"/>
+            <image type="1">7</image>
+            <image-v2 color="007dcb" type="colored">skc_d_-30</image-v2>
+            <image-v3 type="mono">skc_d</image-v3>
+        </hour>
+        <hour at="13">
+            <temperature>-29</temperature>
+            <weather_condition code="clear"/>
+            <image type="1">7</image>
+            <image-v2 color="007dcb" type="colored">skc_d_-28</image-v2>
+            <image-v3 type="mono">skc_d</image-v3>
+        </hour>
+        <hour at="14">
+            <temperature>-27</temperature>
+            <weather_condition code="clear"/>
+            <image type="1">7</image>
+            <image-v2 color="0083d1" type="colored">skc_d_-26</image-v2>
+            <image-v3 type="mono">skc_d</image-v3>
+        </hour>
+        <hour at="15">
+            <temperature>-26</temperature>
+            <weather_condition code="clear"/>
+            <image type="1">7</image>
+            <image-v2 color="0083d1" type="colored">skc_d_-26</image-v2>
+            <image-v3 type="mono">skc_d</image-v3>
+        </hour>
+        <hour at="16">
+            <temperature>-25</temperature>
+            <weather_condition code="clear"/>
+            <image type="1">7</image>
+            <image-v2 color="0080d5" type="colored">skc_d_-24</image-v2>
+            <image-v3 type="mono">skc_d</image-v3>
+        </hour>
+        <hour at="17">
+            <temperature>-24</temperature>
+            <weather_condition code="clear"/>
+            <image type="1">7</image>
+            <image-v2 color="0080d5" type="colored">skc_d_-24</image-v2>
+            <image-v3 type="mono">skc_d</image-v3>
+        </hour>
+        <hour at="18">
+            <temperature>-24</temperature>
+            <weather_condition code="clear"/>
+            <image type="1">7</image>
+            <image-v2 color="0080d5" type="colored">skc_d_-24</image-v2>
+            <image-v3 type="mono">skc_d</image-v3>
+        </hour>
+        <hour at="19">
+            <temperature>-25</temperature>
+            <weather_condition code="clear"/>
+            <image type="1">7</image>
+            <image-v2 color="0080d5" type="colored">skc_d_-24</image-v2>
+            <image-v3 type="mono">skc_d</image-v3>
+        </hour>
+        <hour at="20">
+            <temperature>-25</temperature>
+            <weather_condition code="clear"/>
+            <image type="1">n7</image>
+            <image-v2 color="0080d5" type="colored">skc_n_-24</image-v2>
+            <image-v3 type="mono">skc_n</image-v3>
+        </hour>
+        <hour at="21">
+            <temperature>-25</temperature>
+            <weather_condition code="clear"/>
+            <image type="1">n7</image>
+            <image-v2 color="0080d5" type="colored">skc_n_-24</image-v2>
+            <image-v3 type="mono">skc_n</image-v3>
+        </hour>
+        <hour at="22">
+            <temperature>-26</temperature>
+            <weather_condition code="clear"/>
+            <image type="1">n7</image>
+            <image-v2 color="0083d1" type="colored">skc_n_-26</image-v2>
+            <image-v3 type="mono">skc_n</image-v3>
+        </hour>
+        <hour at="23">
+            <temperature>-27</temperature>
+            <weather_condition code="clear"/>
+            <image type="1">n7</image>
+            <image-v2 color="0083d1" type="colored">skc_n_-26</image-v2>
+            <image-v3 type="mono">skc_n</image-v3>
+        </hour>
+        <hour at="0">
+            <temperature>-28</temperature>
+            <weather_condition code="clear"/>
+            <image type="1">n7</image>
+            <image-v2 color="007dcb" type="colored">skc_n_-28</image-v2>
+            <image-v3 type="mono">skc_n</image-v3>
+        </hour>
+    </day>
+    <day date="2014-02-07">
+        <sunrise>09:57</sunrise>
+        <sunset>19:03</sunset>
+        <moon_phase code="growing-moon">12</moon_phase>
+        <moonrise>12:48</moonrise>
+        <moonset>03:48</moonset>
+        <biomet index="0" geomag="1">
+            <message code="meteosens-favorable"/>
+            <message code="solar-weak"/>
+        </biomet>
+        <day_part typeid="1" type="morning">
+            <temperature_from>-28</temperature_from>
+            <temperature_to>-26</temperature_to>
+            <temperature-data>
+                <avg bgcolor="ABCDE7">-27</avg>
+                <from>-28</from>
+                <to>-26</to>
+            </temperature-data>
+            <weather_condition code="clear"/>
+            <image type="1">n7</image>
+            <image-v2 color="0083d1" type="colored">skc_n_-26</image-v2>
+            <image-v3 type="mono">skc_n</image-v3>
+            <weather_type>ясно</weather_type>
+            <weather_type_short>ясно</weather_type_short>
+            <weather_type_tt>аяз</weather_type_tt>
+            <weather_type_short_tt>аяз</weather_type_short_tt>
+            <weather_type_tr>açık</weather_type_tr>
+            <weather_type_short_tr>açık</weather_type_short_tr>
+            <weather_type_kz>ашық</weather_type_kz>
+            <weather_type_short_kz>ашық</weather_type_short_kz>
+            <weather_type_ua>ясно</weather_type_ua>
+            <weather_type_short_ua>ясно</weather_type_short_ua>
+            <weather_type_by>ясна</weather_type_by>
+            <weather_type_short_by>ясна</weather_type_short_by>
+            <wind_direction>ne</wind_direction>
+            <wind_speed>4.7</wind_speed>
+            <humidity>78</humidity>
+            <pressure units="torr">769</pressure>
+            <mslp_pressure units="hPa">1041</mslp_pressure>
+        </day_part>
+        <day_part typeid="2" type="day">
+            <temperature_from>-23</temperature_from>
+            <temperature_to>-16</temperature_to>
+            <temperature-data>
+                <avg bgcolor="C0D7EA">-19</avg>
+                <from>-23</from>
+                <to>-16</to>
+            </temperature-data>
+            <weather_condition code="clear"/>
+            <image type="1">7</image>
+            <image-v2 color="177fc6" type="colored">skc_d_-18</image-v2>
+            <image-v3 type="mono">skc_d</image-v3>
+            <weather_type>ясно</weather_type>
+            <weather_type_short>ясно</weather_type_short>
+            <weather_type_tt>аяз</weather_type_tt>
+            <weather_type_short_tt>аяз</weather_type_short_tt>
+            <weather_type_tr>açık</weather_type_tr>
+            <weather_type_short_tr>açık</weather_type_short_tr>
+            <weather_type_kz>ашық</weather_type_kz>
+            <weather_type_short_kz>ашық</weather_type_short_kz>
+            <weather_type_ua>ясно</weather_type_ua>
+            <weather_type_short_ua>ясно</weather_type_short_ua>
+            <weather_type_by>ясна</weather_type_by>
+            <weather_type_short_by>ясна</weather_type_short_by>
+            <wind_direction>ne</wind_direction>
+            <wind_speed>3.8</wind_speed>
+            <humidity>65</humidity>
+            <pressure units="torr">767</pressure>
+            <mslp_pressure units="hPa">1038</mslp_pressure>
+        </day_part>
+        <day_part typeid="3" type="evening">
+            <temperature_from>-21</temperature_from>
+            <temperature_to>-17</temperature_to>
+            <temperature-data>
+                <avg bgcolor="C0D7EA">-19</avg>
+                <from>-21</from>
+                <to>-17</to>
+            </temperature-data>
+            <weather_condition code="clear"/>
+            <image type="1">n7</image>
+            <image-v2 color="177fc6" type="colored">skc_n_-18</image-v2>
+            <image-v3 type="mono">skc_n</image-v3>
+            <weather_type>ясно</weather_type>
+            <weather_type_short>ясно</weather_type_short>
+            <weather_type_tt>аяз</weather_type_tt>
+            <weather_type_short_tt>аяз</weather_type_short_tt>
+            <weather_type_tr>açık</weather_type_tr>
+            <weather_type_short_tr>açık</weather_type_short_tr>
+            <weather_type_kz>ашық</weather_type_kz>
+            <weather_type_short_kz>ашық</weather_type_short_kz>
+            <weather_type_ua>ясно</weather_type_ua>
+            <weather_type_short_ua>ясно</weather_type_short_ua>
+            <weather_type_by>ясна</weather_type_by>
+            <weather_type_short_by>ясна</weather_type_short_by>
+            <wind_direction>ne</wind_direction>
+            <wind_speed>5.0</wind_speed>
+            <humidity>70</humidity>
+            <pressure units="torr">766</pressure>
+            <mslp_pressure units="hPa">1037</mslp_pressure>
+        </day_part>
+        <day_part typeid="4" type="night">
+            <temperature_from>-21</temperature_from>
+            <temperature_to>-20</temperature_to>
+            <temperature-data>
+                <avg bgcolor="BBD5E9">-21</avg>
+                <from>-21</from>
+                <to>-20</to>
+            </temperature-data>
+            <weather_condition code="clear"/>
+            <image type="1">n7</image>
+            <image-v2 color="0e7fcd" type="colored">skc_n_-20</image-v2>
+            <image-v3 type="mono">skc_n</image-v3>
+            <weather_type>ясно</weather_type>
+            <weather_type_short>ясно</weather_type_short>
+            <weather_type_tt>аяз</weather_type_tt>
+            <weather_type_short_tt>аяз</weather_type_short_tt>
+            <weather_type_tr>açık</weather_type_tr>
+            <weather_type_short_tr>açık</weather_type_short_tr>
+            <weather_type_kz>ашық</weather_type_kz>
+            <weather_type_short_kz>ашық</weather_type_short_kz>
+            <weather_type_ua>ясно</weather_type_ua>
+            <weather_type_short_ua>ясно</weather_type_short_ua>
+            <weather_type_by>ясна</weather_type_by>
+            <weather_type_short_by>ясна</weather_type_short_by>
+            <wind_direction>ne</wind_direction>
+            <wind_speed>4.6</wind_speed>
+            <humidity>74</humidity>
+            <pressure units="torr">764</pressure>
+            <mslp_pressure units="hPa">1035</mslp_pressure>
+        </day_part>
+        <day_part typeid="5" type="day_short">
+            <temperature>-16</temperature>
+            <temperature-data>
+                <avg bgcolor="C5DAEA">-16</avg>
+            </temperature-data>
+            <weather_condition code="clear"/>
+            <image type="1">7</image>
+            <image-v2 color="2584bc" type="colored">skc_d_-16</image-v2>
+            <image-v3 type="mono">skc_d</image-v3>
+            <weather_type>ясно</weather_type>
+            <weather_type_short>ясно</weather_type_short>
+            <weather_type_tt>аяз</weather_type_tt>
+            <weather_type_short_tt>аяз</weather_type_short_tt>
+            <weather_type_tr>açık</weather_type_tr>
+            <weather_type_short_tr>açık</weather_type_short_tr>
+            <weather_type_kz>ашық</weather_type_kz>
+            <weather_type_short_kz>ашық</weather_type_short_kz>
+            <weather_type_ua>ясно</weather_type_ua>
+            <weather_type_short_ua>ясно</weather_type_short_ua>
+            <weather_type_by>ясна</weather_type_by>
+            <weather_type_short_by>ясна</weather_type_short_by>
+            <wind_direction>ne</wind_direction>
+            <wind_speed>3.8</wind_speed>
+            <humidity>65</humidity>
+            <pressure units="torr">767</pressure>
+            <mslp_pressure units="hPa">1038</mslp_pressure>
+        </day_part>
+        <day_part typeid="6" type="night_short">
+            <temperature>-28</temperature>
+            <temperature-data>
+                <avg bgcolor="A5CAE6">-28</avg>
+            </temperature-data>
+            <weather_condition code="clear"/>
+            <image type="1">n7</image>
+            <image-v2 color="007dcb" type="colored">skc_n_-28</image-v2>
+            <image-v3 type="mono">skc_n</image-v3>
+            <weather_type>ясно</weather_type>
+            <weather_type_short>ясно</weather_type_short>
+            <weather_type_tt>аяз</weather_type_tt>
+            <weather_type_short_tt>аяз</weather_type_short_tt>
+            <weather_type_tr>açık</weather_type_tr>
+            <weather_type_short_tr>açık</weather_type_short_tr>
+            <weather_type_kz>ашық</weather_type_kz>
+            <weather_type_short_kz>ашық</weather_type_short_kz>
+            <weather_type_ua>ясно</weather_type_ua>
+            <weather_type_short_ua>ясно</weather_type_short_ua>
+            <weather_type_by>ясна</weather_type_by>
+            <weather_type_short_by>ясна</weather_type_short_by>
+            <wind_direction>ne</wind_direction>
+            <wind_speed>4.6</wind_speed>
+            <humidity>74</humidity>
+            <pressure units="torr">764</pressure>
+            <mslp_pressure units="hPa">1035</mslp_pressure>
+        </day_part>
+        <hour at="0">
+            <temperature>-28</temperature>
+            <weather_condition code="clear"/>
+            <image type="1">n7</image>
+            <image-v2 color="007dcb" type="colored">skc_n_-28</image-v2>
+            <image-v3 type="mono">skc_n</image-v3>
+        </hour>
+        <hour at="1">
+            <temperature>-28</temperature>
+            <weather_condition code="clear"/>
+            <image type="1">n7</image>
+            <image-v2 color="007dcb" type="colored">skc_n_-28</image-v2>
+            <image-v3 type="mono">skc_n</image-v3>
+        </hour>
+        <hour at="2">
+            <temperature>-29</temperature>
+            <weather_condition code="clear"/>
+            <image type="1">n7</image>
+            <image-v2 color="007dcb" type="colored">skc_n_-28</image-v2>
+            <image-v3 type="mono">skc_n</image-v3>
+        </hour>
+        <hour at="3">
+            <temperature>-29</temperature>
+            <weather_condition code="clear"/>
+            <image type="1">n7</image>
+            <image-v2 color="007dcb" type="colored">skc_n_-28</image-v2>
+            <image-v3 type="mono">skc_n</image-v3>
+        </hour>
+        <hour at="4">
+            <temperature>-28</temperature>
+            <weather_condition code="clear"/>
+            <image type="1">n7</image>
+            <image-v2 color="007dcb" type="colored">skc_n_-28</image-v2>
+            <image-v3 type="mono">skc_n</image-v3>
+        </hour>
+        <hour at="5">
+            <temperature>-28</temperature>
+            <weather_condition code="clear"/>
+            <image type="1">n7</image>
+            <image-v2 color="007dcb" type="colored">skc_n_-28</image-v2>
+            <image-v3 type="mono">skc_n</image-v3>
+        </hour>
+        <hour at="6">
+            <temperature>-28</temperature>
+            <weather_condition code="clear"/>
+            <image type="1">n7</image>
+            <image-v2 color="007dcb" type="colored">skc_n_-28</image-v2>
+            <image-v3 type="mono">skc_n</image-v3>
+        </hour>
+        <hour at="7">
+            <temperature>-28</temperature>
+            <weather_condition code="clear"/>
+            <image type="1">n7</image>
+            <image-v2 color="007dcb" type="colored">skc_n_-28</image-v2>
+            <image-v3 type="mono">skc_n</image-v3>
+        </hour>
+        <hour at="8">
+            <temperature>-28</temperature>
+            <weather_condition code="clear"/>
+            <image type="1">n7</image>
+            <image-v2 color="007dcb" type="colored">skc_n_-28</image-v2>
+            <image-v3 type="mono">skc_n</image-v3>
+        </hour>
+        <hour at="9">
+            <temperature>-27</temperature>
+            <weather_condition code="clear"/>
+            <image type="1">n7</image>
+            <image-v2 color="0083d1" type="colored">skc_n_-26</image-v2>
+            <image-v3 type="mono">skc_n</image-v3>
+        </hour>
+        <hour at="10">
+            <temperature>-26</temperature>
+            <weather_condition code="clear"/>
+            <image type="1">7</image>
+            <image-v2 color="0083d1" type="colored">skc_d_-26</image-v2>
+            <image-v3 type="mono">skc_d</image-v3>
+        </hour>
+        <hour at="11">
+            <temperature>-26</temperature>
+            <weather_condition code="clear"/>
+            <image type="1">7</image>
+            <image-v2 color="0083d1" type="colored">skc_d_-26</image-v2>
+            <image-v3 type="mono">skc_d</image-v3>
+        </hour>
+        <hour at="12">
+            <temperature>-23</temperature>
+            <weather_condition code="clear"/>
+            <image type="1">7</image>
+            <image-v2 color="0086d8" type="colored">skc_d_-22</image-v2>
+            <image-v3 type="mono">skc_d</image-v3>
+        </hour>
+        <hour at="13">
+            <temperature>-21</temperature>
+            <weather_condition code="clear"/>
+            <image type="1">7</image>
+            <image-v2 color="0e7fcd" type="colored">skc_d_-20</image-v2>
+            <image-v3 type="mono">skc_d</image-v3>
+        </hour>
+        <hour at="14">
+            <temperature>-18</temperature>
+            <weather_condition code="clear"/>
+            <image type="1">7</image>
+            <image-v2 color="177fc6" type="colored">skc_d_-18</image-v2>
+            <image-v3 type="mono">skc_d</image-v3>
+        </hour>
+        <hour at="15">
+            <temperature>-17</temperature>
+            <weather_condition code="clear"/>
+            <image type="1">7</image>
+            <image-v2 color="2584bc" type="colored">skc_d_-16</image-v2>
+            <image-v3 type="mono">skc_d</image-v3>
+        </hour>
+        <hour at="16">
+            <temperature>-17</temperature>
+            <weather_condition code="clear"/>
+            <image type="1">7</image>
+            <image-v2 color="2584bc" type="colored">skc_d_-16</image-v2>
+            <image-v3 type="mono">skc_d</image-v3>
+        </hour>
+        <hour at="17">
+            <temperature>-16</temperature>
+            <weather_condition code="clear"/>
+            <image type="1">7</image>
+            <image-v2 color="2584bc" type="colored">skc_d_-16</image-v2>
+            <image-v3 type="mono">skc_d</image-v3>
+        </hour>
+        <hour at="18">
+            <temperature>-17</temperature>
+            <weather_condition code="clear"/>
+            <image type="1">7</image>
+            <image-v2 color="2584bc" type="colored">skc_d_-16</image-v2>
+            <image-v3 type="mono">skc_d</image-v3>
+        </hour>
+        <hour at="19">
+            <temperature>-19</temperature>
+            <weather_condition code="clear"/>
+            <image type="1">7</image>
+            <image-v2 color="177fc6" type="colored">skc_d_-18</image-v2>
+            <image-v3 type="mono">skc_d</image-v3>
+        </hour>
+        <hour at="20">
+            <temperature>-20</temperature>
+            <weather_condition code="clear"/>
+            <image type="1">n7</image>
+            <image-v2 color="0e7fcd" type="colored">skc_n_-20</image-v2>
+            <image-v3 type="mono">skc_n</image-v3>
+        </hour>
+        <hour at="21">
+            <temperature>-20</temperature>
+            <weather_condition code="clear"/>
+            <image type="1">n7</image>
+            <image-v2 color="0e7fcd" type="colored">skc_n_-20</image-v2>
+            <image-v3 type="mono">skc_n</image-v3>
+        </hour>
+        <hour at="22">
+            <temperature>-21</temperature>
+            <weather_condition code="clear"/>
+            <image type="1">n7</image>
+            <image-v2 color="0e7fcd" type="colored">skc_n_-20</image-v2>
+            <image-v3 type="mono">skc_n</image-v3>
+        </hour>
+    </day>
+    <day date="2014-02-08">
+        <sunrise>09:55</sunrise>
+        <sunset>19:05</sunset>
+        <moon_phase code="growing-moon">13</moon_phase>
+        <moonrise>13:24</moonrise>
+        <moonset>04:52</moonset>
+        <day_part typeid="1" type="morning">
+            <temperature_from>-21</temperature_from>
+            <temperature_to>-19</temperature_to>
+            <temperature-data>
+                <avg bgcolor="C0D7EA">-19</avg>
+                <from>-21</from>
+                <to>-19</to>
+            </temperature-data>
+            <weather_condition code="partly-cloudy"/>
+            <image type="1">n6</image>
+            <image-v2 color="177fc6" type="colored">bkn_n_-18</image-v2>
+            <image-v3 type="mono">bkn_n</image-v3>
+            <weather_type>переменная облачность</weather_type>
+            <weather_type_short>перем. обл.</weather_type_short>
+            <weather_type_tt>алмашучан болытлылык</weather_type_tt>
+            <weather_type_short_tt>алмаш. бол.</weather_type_short_tt>
+            <weather_type_tr>parçalı bulutlu</weather_type_tr>
+            <weather_type_short_tr>prç. az bulutlu</weather_type_short_tr>
+            <weather_type_kz>өзгермелі бұлттар</weather_type_kz>
+            <weather_type_short_kz>өзгермелі бұлттар</weather_type_short_kz>
+            <weather_type_ua>мінлива хмарність</weather_type_ua>
+            <weather_type_short_ua>мінл. хмарн.</weather_type_short_ua>
+            <weather_type_by>пераменная воблачнасць</weather_type_by>
+            <weather_type_short_by>перам. вобл.</weather_type_short_by>
+            <wind_direction>ne</wind_direction>
+            <wind_speed>3.6</wind_speed>
+            <humidity>72</humidity>
+            <pressure units="torr">764</pressure>
+            <mslp_pressure units="hPa">1035</mslp_pressure>
+        </day_part>
+        <day_part typeid="2" type="day">
+            <temperature_from>-21</temperature_from>
+            <temperature_to>-16</temperature_to>
+            <temperature-data>
+                <avg bgcolor="C5DAEA">-16</avg>
+                <from>-21</from>
+                <to>-16</to>
+            </temperature-data>
+            <weather_condition code="mostly-clear"/>
+            <image type="1">6</image>
+            <image-v2 color="2584bc" type="colored">bkn_d_-16</image-v2>
+            <image-v3 type="mono">bkn_d</image-v3>
+            <weather_type>малооблачно</weather_type>
+            <weather_type_short>малообл.</weather_type_short>
+            <weather_type_tt>аз болытлы</weather_type_tt>
+            <weather_type_short_tt>аз бол.</weather_type_short_tt>
+            <weather_type_tr>az bulutlu</weather_type_tr>
+            <weather_type_short_tr>az bulutlu</weather_type_short_tr>
+            <weather_type_kz>аздаған бұлт</weather_type_kz>
+            <weather_type_short_kz>аздаған бұлт</weather_type_short_kz>
+            <weather_type_ua>малохмарно</weather_type_ua>
+            <weather_type_short_ua>малохмарно</weather_type_short_ua>
+            <weather_type_by>малавоблачна</weather_type_by>
+            <weather_type_short_by>малавобл.</weather_type_short_by>
+            <wind_direction>se</wind_direction>
+            <wind_speed>1.2</wind_speed>
+            <humidity>67</humidity>
+            <pressure units="torr">764</pressure>
+            <mslp_pressure units="hPa">1034</mslp_pressure>
+        </day_part>
+        <day_part typeid="3" type="evening">
+            <temperature_from>-19</temperature_from>
+            <temperature_to>-15</temperature_to>
+            <temperature-data>
+                <avg bgcolor="C0D7EA">-19</avg>
+                <from>-19</from>
+                <to>-15</to>
+            </temperature-data>
+            <weather_condition code="cloudy"/>
+            <image type="1">n6</image>
+            <image-v2 color="177fc6" type="colored">bkn_n_-18</image-v2>
+            <image-v3 type="mono">bkn_n</image-v3>
+            <weather_type>облачно с прояснениями</weather_type>
+            <weather_type_short>обл. с проясн.</weather_type_short>
+            <weather_type_tt>аязучан болытлы</weather_type_tt>
+            <weather_type_short_tt>аязуч. бол.</weather_type_short_tt>
+            <weather_type_tr>parçalı bulutlu</weather_type_tr>
+            <weather_type_short_tr>prç. bulutlu</weather_type_short_tr>
+            <weather_type_kz>ауыспалы бұлтты</weather_type_kz>
+            <weather_type_short_kz>ауыспалы бұлтты</weather_type_short_kz>
+            <weather_type_ua>хмарно з проясненнями </weather_type_ua>
+            <weather_type_short_ua>хмарно з проясн.</weather_type_short_ua>
+            <weather_type_by>воблачна з праясненнямі</weather_type_by>
+            <weather_type_short_by>вобл. з праясн.</weather_type_short_by>
+            <wind_direction>s</wind_direction>
+            <wind_speed>2.0</wind_speed>
+            <humidity>72</humidity>
+            <pressure units="torr">764</pressure>
+            <mslp_pressure units="hPa">1034</mslp_pressure>
+        </day_part>
+        <day_part typeid="4" type="night">
+            <temperature_from>-22</temperature_from>
+            <temperature_to>-19</temperature_to>
+            <temperature-data>
+                <avg bgcolor="B5D2E9">-22</avg>
+                <from>-22</from>
+                <to>-19</to>
+            </temperature-data>
+            <weather_condition code="overcast"/>
+            <image type="1">n5</image>
+            <image-v2 color="0086d8" type="colored">ovc_-22</image-v2>
+            <image-v3 type="mono">ovc</image-v3>
+            <weather_type>облачно</weather_type>
+            <weather_type_short>облачно</weather_type_short>
+            <weather_type_tt>болытлы</weather_type_tt>
+            <weather_type_short_tt>болытлы</weather_type_short_tt>
+            <weather_type_tr>bulutlu</weather_type_tr>
+            <weather_type_short_tr>bulutlu</weather_type_short_tr>
+            <weather_type_kz>бұлтты</weather_type_kz>
+            <weather_type_short_kz>бұлтты</weather_type_short_kz>
+            <weather_type_ua>хмарно</weather_type_ua>
+            <weather_type_short_ua>хмарно</weather_type_short_ua>
+            <weather_type_by>воблачна</weather_type_by>
+            <weather_type_short_by>воблачна</weather_type_short_by>
+            <wind_direction>se</wind_direction>
+            <wind_speed>2.9</wind_speed>
+            <humidity>77</humidity>
+            <pressure units="torr">764</pressure>
+            <mslp_pressure units="hPa">1034</mslp_pressure>
+        </day_part>
+        <day_part typeid="5" type="day_short">
+            <temperature>-14</temperature>
+            <temperature-data>
+                <avg bgcolor="CADDEB">-14</avg>
+            </temperature-data>
+            <weather_condition code="mostly-clear"/>
+            <image type="1">6</image>
+            <image-v2 color="2a81b9" type="colored">bkn_d_-14</image-v2>
+            <image-v3 type="mono">bkn_d</image-v3>
+            <weather_type>малооблачно</weather_type>
+            <weather_type_short>малообл.</weather_type_short>
+            <weather_type_tt>аз болытлы</weather_type_tt>
+            <weather_type_short_tt>аз бол.</weather_type_short_tt>
+            <weather_type_tr>az bulutlu</weather_type_tr>
+            <weather_type_short_tr>az bulutlu</weather_type_short_tr>
+            <weather_type_kz>аздаған бұлт</weather_type_kz>
+            <weather_type_short_kz>аздаған бұлт</weather_type_short_kz>
+            <weather_type_ua>малохмарно</weather_type_ua>
+            <weather_type_short_ua>малохмарно</weather_type_short_ua>
+            <weather_type_by>малавоблачна</weather_type_by>
+            <weather_type_short_by>малавобл.</weather_type_short_by>
+            <wind_direction>se</wind_direction>
+            <wind_speed>1.2</wind_speed>
+            <humidity>67</humidity>
+            <pressure units="torr">764</pressure>
+            <mslp_pressure units="hPa">1034</mslp_pressure>
+        </day_part>
+        <day_part typeid="6" type="night_short">
+            <temperature>-22</temperature>
+            <temperature-data>
+                <avg bgcolor="B5D2E9">-22</avg>
+            </temperature-data>
+            <weather_condition code="overcast"/>
+            <image type="1">n5</image>
+            <image-v2 color="0086d8" type="colored">ovc_-22</image-v2>
+            <image-v3 type="mono">ovc</image-v3>
+            <weather_type>облачно</weather_type>
+            <weather_type_short>облачно</weather_type_short>
+            <weather_type_tt>болытлы</weather_type_tt>
+            <weather_type_short_tt>болытлы</weather_type_short_tt>
+            <weather_type_tr>bulutlu</weather_type_tr>
+            <weather_type_short_tr>bulutlu</weather_type_short_tr>
+            <weather_type_kz>бұлтты</weather_type_kz>
+            <weather_type_short_kz>бұлтты</weather_type_short_kz>
+            <weather_type_ua>хмарно</weather_type_ua>
+            <weather_type_short_ua>хмарно</weather_type_short_ua>
+            <weather_type_by>воблачна</weather_type_by>
+            <weather_type_short_by>воблачна</weather_type_short_by>
+            <wind_direction>se</wind_direction>
+            <wind_speed>2.9</wind_speed>
+            <humidity>77</humidity>
+            <pressure units="torr">764</pressure>
+            <mslp_pressure units="hPa">1034</mslp_pressure>
+        </day_part>
+    </day>
+    <day date="2014-02-09">
+        <sunrise>09:53</sunrise>
+        <sunset>19:07</sunset>
+        <moon_phase code="growing-moon">13</moon_phase>
+        <moonrise>14:06</moonrise>
+        <moonset>05:49</moonset>
+        <day_part typeid="1" type="morning">
+            <temperature_from>-23</temperature_from>
+            <temperature_to>-22</temperature_to>
+            <temperature-data>
+                <avg bgcolor="B5D2E9">-23</avg>
+                <from>-23</from>
+                <to>-22</to>
+            </temperature-data>
+            <weather_condition code="overcast"/>
+            <image type="1">n5</image>
+            <image-v2 color="0086d8" type="colored">ovc_-22</image-v2>
+            <image-v3 type="mono">ovc</image-v3>
+            <weather_type>облачно</weather_type>
+            <weather_type_short>облачно</weather_type_short>
+            <weather_type_tt>болытлы</weather_type_tt>
+            <weather_type_short_tt>болытлы</weather_type_short_tt>
+            <weather_type_tr>bulutlu</weather_type_tr>
+            <weather_type_short_tr>bulutlu</weather_type_short_tr>
+            <weather_type_kz>бұлтты</weather_type_kz>
+            <weather_type_short_kz>бұлтты</weather_type_short_kz>
+            <weather_type_ua>хмарно</weather_type_ua>
+            <weather_type_short_ua>хмарно</weather_type_short_ua>
+            <weather_type_by>воблачна</weather_type_by>
+            <weather_type_short_by>воблачна</weather_type_short_by>
+            <wind_direction>se</wind_direction>
+            <wind_speed>2.4</wind_speed>
+            <humidity>80</humidity>
+            <pressure units="torr">764</pressure>
+            <mslp_pressure units="hPa">1035</mslp_pressure>
+        </day_part>
+        <day_part typeid="2" type="day">
+            <temperature_from>-23</temperature_from>
+            <temperature_to>-17</temperature_to>
+            <temperature-data>
+                <avg bgcolor="C5DAEA">-17</avg>
+                <from>-23</from>
+                <to>-17</to>
+            </temperature-data>
+            <weather_condition code="cloudy"/>
+            <image type="1">6</image>
+            <image-v2 color="2584bc" type="colored">bkn_d_-16</image-v2>
+            <image-v3 type="mono">bkn_d</image-v3>
+            <weather_type>облачно с прояснениями</weather_type>
+            <weather_type_short>обл. с проясн.</weather_type_short>
+            <weather_type_tt>аязучан болытлы</weather_type_tt>
+            <weather_type_short_tt>аязуч. бол.</weather_type_short_tt>
+            <weather_type_tr>parçalı bulutlu</weather_type_tr>
+            <weather_type_short_tr>prç. bulutlu</weather_type_short_tr>
+            <weather_type_kz>ауыспалы бұлтты</weather_type_kz>
+            <weather_type_short_kz>ауыспалы бұлтты</weather_type_short_kz>
+            <weather_type_ua>хмарно з проясненнями </weather_type_ua>
+            <weather_type_short_ua>хмарно з проясн.</weather_type_short_ua>
+            <weather_type_by>воблачна з праясненнямі</weather_type_by>
+            <weather_type_short_by>вобл. з праясн.</weather_type_short_by>
+            <wind_direction>se</wind_direction>
+            <wind_speed>1.4</wind_speed>
+            <humidity>79</humidity>
+            <pressure units="torr">765</pressure>
+            <mslp_pressure units="hPa">1036</mslp_pressure>
+        </day_part>
+        <day_part typeid="3" type="evening">
+            <temperature_from>-17</temperature_from>
+            <temperature_to>-15</temperature_to>
+            <temperature-data>
+                <avg bgcolor="C5DAEA">-16</avg>
+                <from>-17</from>
+                <to>-15</to>
+            </temperature-data>
+            <weather_condition code="mostly-clear"/>
+            <image type="1">n6</image>
+            <image-v2 color="2584bc" type="colored">bkn_n_-16</image-v2>
+            <image-v3 type="mono">bkn_n</image-v3>
+            <weather_type>малооблачно</weather_type>
+            <weather_type_short>малообл.</weather_type_short>
+            <weather_type_tt>аз болытлы</weather_type_tt>
+            <weather_type_short_tt>аз бол.</weather_type_short_tt>
+            <weather_type_tr>az bulutlu</weather_type_tr>
+            <weather_type_short_tr>az bulutlu</weather_type_short_tr>
+            <weather_type_kz>аздаған бұлт</weather_type_kz>
+            <weather_type_short_kz>аздаған бұлт</weather_type_short_kz>
+            <weather_type_ua>малохмарно</weather_type_ua>
+            <weather_type_short_ua>малохмарно</weather_type_short_ua>
+            <weather_type_by>малавоблачна</weather_type_by>
+            <weather_type_short_by>малавобл.</weather_type_short_by>
+            <wind_direction>se</wind_direction>
+            <wind_speed>2.1</wind_speed>
+            <humidity>71</humidity>
+            <pressure units="torr">766</pressure>
+            <mslp_pressure units="hPa">1037</mslp_pressure>
+        </day_part>
+        <day_part typeid="4" type="night">
+            <temperature_from>-20</temperature_from>
+            <temperature_to>-16</temperature_to>
+            <temperature-data>
+                <avg bgcolor="BBD5E9">-20</avg>
+                <from>-20</from>
+                <to>-16</to>
+            </temperature-data>
+            <weather_condition code="clear"/>
+            <image type="1">n7</image>
+            <image-v2 color="0e7fcd" type="colored">skc_n_-20</image-v2>
+            <image-v3 type="mono">skc_n</image-v3>
+            <weather_type>ясно</weather_type>
+            <weather_type_short>ясно</weather_type_short>
+            <weather_type_tt>аяз</weather_type_tt>
+            <weather_type_short_tt>аяз</weather_type_short_tt>
+            <weather_type_tr>açık</weather_type_tr>
+            <weather_type_short_tr>açık</weather_type_short_tr>
+            <weather_type_kz>ашық</weather_type_kz>
+            <weather_type_short_kz>ашық</weather_type_short_kz>
+            <weather_type_ua>ясно</weather_type_ua>
+            <weather_type_short_ua>ясно</weather_type_short_ua>
+            <weather_type_by>ясна</weather_type_by>
+            <weather_type_short_by>ясна</weather_type_short_by>
+            <wind_direction>ne</wind_direction>
+            <wind_speed>1.5</wind_speed>
+            <humidity>81</humidity>
+            <pressure units="torr">765</pressure>
+            <mslp_pressure units="hPa">1036</mslp_pressure>
+        </day_part>
+        <day_part typeid="5" type="day_short">
+            <temperature>-15</temperature>
+            <temperature-data>
+                <avg bgcolor="CADDEB">-15</avg>
+            </temperature-data>
+            <weather_condition code="cloudy"/>
+            <image type="1">6</image>
+            <image-v2 color="2a81b9" type="colored">bkn_d_-14</image-v2>
+            <image-v3 type="mono">bkn_d</image-v3>
+            <weather_type>облачно с прояснениями</weather_type>
+            <weather_type_short>обл. с проясн.</weather_type_short>
+            <weather_type_tt>аязучан болытлы</weather_type_tt>
+            <weather_type_short_tt>аязуч. бол.</weather_type_short_tt>
+            <weather_type_tr>parçalı bulutlu</weather_type_tr>
+            <weather_type_short_tr>prç. bulutlu</weather_type_short_tr>
+            <weather_type_kz>ауыспалы бұлтты</weather_type_kz>
+            <weather_type_short_kz>ауыспалы бұлтты</weather_type_short_kz>
+            <weather_type_ua>хмарно з проясненнями </weather_type_ua>
+            <weather_type_short_ua>хмарно з проясн.</weather_type_short_ua>
+            <weather_type_by>воблачна з праясненнямі</weather_type_by>
+            <weather_type_short_by>вобл. з праясн.</weather_type_short_by>
+            <wind_direction>se</wind_direction>
+            <wind_speed>1.4</wind_speed>
+            <humidity>79</humidity>
+            <pressure units="torr">765</pressure>
+            <mslp_pressure units="hPa">1036</mslp_pressure>
+        </day_part>
+        <day_part typeid="6" type="night_short">
+            <temperature>-23</temperature>
+            <temperature-data>
+                <avg bgcolor="B5D2E9">-23</avg>
+            </temperature-data>
+            <weather_condition code="clear"/>
+            <image type="1">n7</image>
+            <image-v2 color="0086d8" type="colored">skc_n_-22</image-v2>
+            <image-v3 type="mono">skc_n</image-v3>
+            <weather_type>ясно</weather_type>
+            <weather_type_short>ясно</weather_type_short>
+            <weather_type_tt>аяз</weather_type_tt>
+            <weather_type_short_tt>аяз</weather_type_short_tt>
+            <weather_type_tr>açık</weather_type_tr>
+            <weather_type_short_tr>açık</weather_type_short_tr>
+            <weather_type_kz>ашық</weather_type_kz>
+            <weather_type_short_kz>ашық</weather_type_short_kz>
+            <weather_type_ua>ясно</weather_type_ua>
+            <weather_type_short_ua>ясно</weather_type_short_ua>
+            <weather_type_by>ясна</weather_type_by>
+            <weather_type_short_by>ясна</weather_type_short_by>
+            <wind_direction>ne</wind_direction>
+            <wind_speed>1.5</wind_speed>
+            <humidity>81</humidity>
+            <pressure units="torr">765</pressure>
+            <mslp_pressure units="hPa">1036</mslp_pressure>
+        </day_part>
+    </day>
+    <day date="2014-02-10">
+        <sunrise>09:51</sunrise>
+        <sunset>19:09</sunset>
+        <moon_phase code="growing-moon">14</moon_phase>
+        <moonrise>14:55</moonrise>
+        <moonset>06:39</moonset>
+        <day_part typeid="1" type="morning">
+            <temperature_from>-23</temperature_from>
+            <temperature_to>-20</temperature_to>
+            <temperature-data>
+                <avg bgcolor="B5D2E9">-23</avg>
+                <from>-23</from>
+                <to>-20</to>
+            </temperature-data>
+            <weather_condition code="clear"/>
+            <image type="1">n7</image>
+            <image-v2 color="0086d8" type="colored">skc_n_-22</image-v2>
+            <image-v3 type="mono">skc_n</image-v3>
+            <weather_type>ясно</weather_type>
+            <weather_type_short>ясно</weather_type_short>
+            <weather_type_tt>аяз</weather_type_tt>
+            <weather_type_short_tt>аяз</weather_type_short_tt>
+            <weather_type_tr>açık</weather_type_tr>
+            <weather_type_short_tr>açık</weather_type_short_tr>
+            <weather_type_kz>ашық</weather_type_kz>
+            <weather_type_short_kz>ашық</weather_type_short_kz>
+            <weather_type_ua>ясно</weather_type_ua>
+            <weather_type_short_ua>ясно</weather_type_short_ua>
+            <weather_type_by>ясна</weather_type_by>
+            <weather_type_short_by>ясна</weather_type_short_by>
+            <wind_direction>n</wind_direction>
+            <wind_speed>2.0</wind_speed>
+            <humidity>82</humidity>
+            <pressure units="torr">765</pressure>
+            <mslp_pressure units="hPa">1036</mslp_pressure>
+        </day_part>
+        <day_part typeid="2" type="day">
+            <temperature_from>-24</temperature_from>
+            <temperature_to>-18</temperature_to>
+            <temperature-data>
+                <avg bgcolor="C0D7EA">-18</avg>
+                <from>-24</from>
+                <to>-18</to>
+            </temperature-data>
+            <weather_condition code="clear"/>
+            <image type="1">7</image>
+            <image-v2 color="177fc6" type="colored">skc_d_-18</image-v2>
+            <image-v3 type="mono">skc_d</image-v3>
+            <weather_type>ясно</weather_type>
+            <weather_type_short>ясно</weather_type_short>
+            <weather_type_tt>аяз</weather_type_tt>
+            <weather_type_short_tt>аяз</weather_type_short_tt>
+            <weather_type_tr>açık</weather_type_tr>
+            <weather_type_short_tr>açık</weather_type_short_tr>
+            <weather_type_kz>ашық</weather_type_kz>
+            <weather_type_short_kz>ашық</weather_type_short_kz>
+            <weather_type_ua>ясно</weather_type_ua>
+            <weather_type_short_ua>ясно</weather_type_short_ua>
+            <weather_type_by>ясна</weather_type_by>
+            <weather_type_short_by>ясна</weather_type_short_by>
+            <wind_direction>nw</wind_direction>
+            <wind_speed>0.9</wind_speed>
+            <humidity>69</humidity>
+            <pressure units="torr">765</pressure>
+            <mslp_pressure units="hPa">1036</mslp_pressure>
+        </day_part>
+        <day_part typeid="3" type="evening">
+            <temperature_from>-18</temperature_from>
+            <temperature_to>-14</temperature_to>
+            <temperature-data>
+                <avg bgcolor="C5DAEA">-17</avg>
+                <from>-18</from>
+                <to>-14</to>
+            </temperature-data>
+            <weather_condition code="clear"/>
+            <image type="1">n7</image>
+            <image-v2 color="2584bc" type="colored">skc_n_-16</image-v2>
+            <image-v3 type="mono">skc_n</image-v3>
+            <weather_type>ясно</weather_type>
+            <weather_type_short>ясно</weather_type_short>
+            <weather_type_tt>аяз</weather_type_tt>
+            <weather_type_short_tt>аяз</weather_type_short_tt>
+            <weather_type_tr>açık</weather_type_tr>
+            <weather_type_short_tr>açık</weather_type_short_tr>
+            <weather_type_kz>ашық</weather_type_kz>
+            <weather_type_short_kz>ашық</weather_type_short_kz>
+            <weather_type_ua>ясно</weather_type_ua>
+            <weather_type_short_ua>ясно</weather_type_short_ua>
+            <weather_type_by>ясна</weather_type_by>
+            <weather_type_short_by>ясна</weather_type_short_by>
+            <wind_direction>nw</wind_direction>
+            <wind_speed>2.0</wind_speed>
+            <humidity>68</humidity>
+            <pressure units="torr">766</pressure>
+            <mslp_pressure units="hPa">1037</mslp_pressure>
+        </day_part>
+        <day_part typeid="4" type="night">
+            <temperature_from>-21</temperature_from>
+            <temperature_to>-17</temperature_to>
+            <temperature-data>
+                <avg bgcolor="BBD5E9">-21</avg>
+                <from>-21</from>
+                <to>-17</to>
+            </temperature-data>
+            <weather_condition code="clear"/>
+            <image type="1">n7</image>
+            <image-v2 color="0e7fcd" type="colored">skc_n_-20</image-v2>
+            <image-v3 type="mono">skc_n</image-v3>
+            <weather_type>ясно</weather_type>
+            <weather_type_short>ясно</weather_type_short>
+            <weather_type_tt>аяз</weather_type_tt>
+            <weather_type_short_tt>аяз</weather_type_short_tt>
+            <weather_type_tr>açık</weather_type_tr>
+            <weather_type_short_tr>açık</weather_type_short_tr>
+            <weather_type_kz>ашық</weather_type_kz>
+            <weather_type_short_kz>ашық</weather_type_short_kz>
+            <weather_type_ua>ясно</weather_type_ua>
+            <weather_type_short_ua>ясно</weather_type_short_ua>
+            <weather_type_by>ясна</weather_type_by>
+            <weather_type_short_by>ясна</weather_type_short_by>
+            <wind_direction>n</wind_direction>
+            <wind_speed>1.8</wind_speed>
+            <humidity>85</humidity>
+            <pressure units="torr">766</pressure>
+            <mslp_pressure units="hPa">1037</mslp_pressure>
+        </day_part>
+        <day_part typeid="5" type="day_short">
+            <temperature>-14</temperature>
+            <temperature-data>
+                <avg bgcolor="CADDEB">-14</avg>
+            </temperature-data>
+            <weather_condition code="clear"/>
+            <image type="1">7</image>
+            <image-v2 color="2a81b9" type="colored">skc_d_-14</image-v2>
+            <image-v3 type="mono">skc_d</image-v3>
+            <weather_type>ясно</weather_type>
+            <weather_type_short>ясно</weather_type_short>
+            <weather_type_tt>аяз</weather_type_tt>
+            <weather_type_short_tt>аяз</weather_type_short_tt>
+            <weather_type_tr>açık</weather_type_tr>
+            <weather_type_short_tr>açık</weather_type_short_tr>
+            <weather_type_kz>ашық</weather_type_kz>
+            <weather_type_short_kz>ашық</weather_type_short_kz>
+            <weather_type_ua>ясно</weather_type_ua>
+            <weather_type_short_ua>ясно</weather_type_short_ua>
+            <weather_type_by>ясна</weather_type_by>
+            <weather_type_short_by>ясна</weather_type_short_by>
+            <wind_direction>nw</wind_direction>
+            <wind_speed>0.9</wind_speed>
+            <humidity>69</humidity>
+            <pressure units="torr">765</pressure>
+            <mslp_pressure units="hPa">1036</mslp_pressure>
+        </day_part>
+        <day_part typeid="6" type="night_short">
+            <temperature>-24</temperature>
+            <temperature-data>
+                <avg bgcolor="B0CFE8">-24</avg>
+            </temperature-data>
+            <weather_condition code="clear"/>
+            <image type="1">n7</image>
+            <image-v2 color="0080d5" type="colored">skc_n_-24</image-v2>
+            <image-v3 type="mono">skc_n</image-v3>
+            <weather_type>ясно</weather_type>
+            <weather_type_short>ясно</weather_type_short>
+            <weather_type_tt>аяз</weather_type_tt>
+            <weather_type_short_tt>аяз</weather_type_short_tt>
+            <weather_type_tr>açık</weather_type_tr>
+            <weather_type_short_tr>açık</weather_type_short_tr>
+            <weather_type_kz>ашық</weather_type_kz>
+            <weather_type_short_kz>ашық</weather_type_short_kz>
+            <weather_type_ua>ясно</weather_type_ua>
+            <weather_type_short_ua>ясно</weather_type_short_ua>
+            <weather_type_by>ясна</weather_type_by>
+            <weather_type_short_by>ясна</weather_type_short_by>
+            <wind_direction>n</wind_direction>
+            <wind_speed>1.8</wind_speed>
+            <humidity>85</humidity>
+            <pressure units="torr">766</pressure>
+            <mslp_pressure units="hPa">1037</mslp_pressure>
+        </day_part>
+    </day>
+    <day date="2014-02-11">
+        <sunrise>09:49</sunrise>
+        <sunset>19:11</sunset>
+        <moon_phase code="growing-moon">14</moon_phase>
+        <moonrise>15:51</moonrise>
+        <moonset>07:21</moonset>
+        <day_part typeid="1" type="morning">
+            <temperature_from>-25</temperature_from>
+            <temperature_to>-21</temperature_to>
+            <temperature-data>
+                <avg bgcolor="B0CFE8">-25</avg>
+                <from>-25</from>
+                <to>-21</to>
+            </temperature-data>
+            <weather_condition code="mostly-clear"/>
+            <image type="1">n6</image>
+            <image-v2 color="0080d5" type="colored">bkn_n_-24</image-v2>
+            <image-v3 type="mono">bkn_n</image-v3>
+            <weather_type>малооблачно</weather_type>
+            <weather_type_short>малообл.</weather_type_short>
+            <weather_type_tt>аз болытлы</weather_type_tt>
+            <weather_type_short_tt>аз бол.</weather_type_short_tt>
+            <weather_type_tr>az bulutlu</weather_type_tr>
+            <weather_type_short_tr>az bulutlu</weather_type_short_tr>
+            <weather_type_kz>аздаған бұлт</weather_type_kz>
+            <weather_type_short_kz>аздаған бұлт</weather_type_short_kz>
+            <weather_type_ua>малохмарно</weather_type_ua>
+            <weather_type_short_ua>малохмарно</weather_type_short_ua>
+            <weather_type_by>малавоблачна</weather_type_by>
+            <weather_type_short_by>малавобл.</weather_type_short_by>
+            <wind_direction>n</wind_direction>
+            <wind_speed>2.2</wind_speed>
+            <humidity>86</humidity>
+            <pressure units="torr">766</pressure>
+            <mslp_pressure units="hPa">1037</mslp_pressure>
+        </day_part>
+        <day_part typeid="2" type="day">
+            <temperature_from>-25</temperature_from>
+            <temperature_to>-21</temperature_to>
+            <temperature-data>
+                <avg bgcolor="BBD5E9">-21</avg>
+                <from>-25</from>
+                <to>-21</to>
+            </temperature-data>
+            <weather_condition code="mostly-clear"/>
+            <image type="1">6</image>
+            <image-v2 color="0e7fcd" type="colored">bkn_d_-20</image-v2>
+            <image-v3 type="mono">bkn_d</image-v3>
+            <weather_type>малооблачно</weather_type>
+            <weather_type_short>малообл.</weather_type_short>
+            <weather_type_tt>аз болытлы</weather_type_tt>
+            <weather_type_short_tt>аз бол.</weather_type_short_tt>
+            <weather_type_tr>az bulutlu</weather_type_tr>
+            <weather_type_short_tr>az bulutlu</weather_type_short_tr>
+            <weather_type_kz>аздаған бұлт</weather_type_kz>
+            <weather_type_short_kz>аздаған бұлт</weather_type_short_kz>
+            <weather_type_ua>малохмарно</weather_type_ua>
+            <weather_type_short_ua>малохмарно</weather_type_short_ua>
+            <weather_type_by>малавоблачна</weather_type_by>
+            <weather_type_short_by>малавобл.</weather_type_short_by>
+            <wind_direction>nw</wind_direction>
+            <wind_speed>0.3</wind_speed>
+            <humidity>74</humidity>
+            <pressure units="torr">766</pressure>
+            <mslp_pressure units="hPa">1037</mslp_pressure>
+        </day_part>
+        <day_part typeid="3" type="evening">
+            <temperature_from>-21</temperature_from>
+            <temperature_to>-18</temperature_to>
+            <temperature-data>
+                <avg bgcolor="C0D7EA">-19</avg>
+                <from>-21</from>
+                <to>-18</to>
+            </temperature-data>
+            <weather_condition code="mostly-clear"/>
+            <image type="1">n6</image>
+            <image-v2 color="177fc6" type="colored">bkn_n_-18</image-v2>
+            <image-v3 type="mono">bkn_n</image-v3>
+            <weather_type>малооблачно</weather_type>
+            <weather_type_short>малообл.</weather_type_short>
+            <weather_type_tt>аз болытлы</weather_type_tt>
+            <weather_type_short_tt>аз бол.</weather_type_short_tt>
+            <weather_type_tr>az bulutlu</weather_type_tr>
+            <weather_type_short_tr>az bulutlu</weather_type_short_tr>
+            <weather_type_kz>аздаған бұлт</weather_type_kz>
+            <weather_type_short_kz>аздаған бұлт</weather_type_short_kz>
+            <weather_type_ua>малохмарно</weather_type_ua>
+            <weather_type_short_ua>малохмарно</weather_type_short_ua>
+            <weather_type_by>малавоблачна</weather_type_by>
+            <weather_type_short_by>малавобл.</weather_type_short_by>
+            <wind_direction>nw</wind_direction>
+            <wind_speed>2.8</wind_speed>
+            <humidity>73</humidity>
+            <pressure units="torr">766</pressure>
+            <mslp_pressure units="hPa">1037</mslp_pressure>
+        </day_part>
+        <day_part typeid="4" type="night">
+            <temperature_from>-23</temperature_from>
+            <temperature_to>-19</temperature_to>
+            <temperature-data>
+                <avg bgcolor="B5D2E9">-23</avg>
+                <from>-23</from>
+                <to>-19</to>
+            </temperature-data>
+            <weather_condition code="partly-cloudy"/>
+            <image type="1">n6</image>
+            <image-v2 color="0086d8" type="colored">bkn_n_-22</image-v2>
+            <image-v3 type="mono">bkn_n</image-v3>
+            <weather_type>переменная облачность</weather_type>
+            <weather_type_short>перем. обл.</weather_type_short>
+            <weather_type_tt>алмашучан болытлылык</weather_type_tt>
+            <weather_type_short_tt>алмаш. бол.</weather_type_short_tt>
+            <weather_type_tr>parçalı bulutlu</weather_type_tr>
+            <weather_type_short_tr>prç. az bulutlu</weather_type_short_tr>
+            <weather_type_kz>өзгермелі бұлттар</weather_type_kz>
+            <weather_type_short_kz>өзгермелі бұлттар</weather_type_short_kz>
+            <weather_type_ua>мінлива хмарність</weather_type_ua>
+            <weather_type_short_ua>мінл. хмарн.</weather_type_short_ua>
+            <weather_type_by>пераменная воблачнасць</weather_type_by>
+            <weather_type_short_by>перам. вобл.</weather_type_short_by>
+            <wind_direction>n</wind_direction>
+            <wind_speed>3.0</wind_speed>
+            <humidity>84</humidity>
+            <pressure units="torr">767</pressure>
+            <mslp_pressure units="hPa">1038</mslp_pressure>
+        </day_part>
+        <day_part typeid="5" type="day_short">
+            <temperature>-18</temperature>
+            <temperature-data>
+                <avg bgcolor="C0D7EA">-18</avg>
+            </temperature-data>
+            <weather_condition code="mostly-clear"/>
+            <image type="1">6</image>
+            <image-v2 color="177fc6" type="colored">bkn_d_-18</image-v2>
+            <image-v3 type="mono">bkn_d</image-v3>
+            <weather_type>малооблачно</weather_type>
+            <weather_type_short>малообл.</weather_type_short>
+            <weather_type_tt>аз болытлы</weather_type_tt>
+            <weather_type_short_tt>аз бол.</weather_type_short_tt>
+            <weather_type_tr>az bulutlu</weather_type_tr>
+            <weather_type_short_tr>az bulutlu</weather_type_short_tr>
+            <weather_type_kz>аздаған бұлт</weather_type_kz>
+            <weather_type_short_kz>аздаған бұлт</weather_type_short_kz>
+            <weather_type_ua>малохмарно</weather_type_ua>
+            <weather_type_short_ua>малохмарно</weather_type_short_ua>
+            <weather_type_by>малавоблачна</weather_type_by>
+            <weather_type_short_by>малавобл.</weather_type_short_by>
+            <wind_direction>nw</wind_direction>
+            <wind_speed>0.3</wind_speed>
+            <humidity>74</humidity>
+            <pressure units="torr">766</pressure>
+            <mslp_pressure units="hPa">1037</mslp_pressure>
+        </day_part>
+        <day_part typeid="6" type="night_short">
+            <temperature>-25</temperature>
+            <temperature-data>
+                <avg bgcolor="B0CFE8">-25</avg>
+            </temperature-data>
+            <weather_condition code="partly-cloudy"/>
+            <image type="1">n6</image>
+            <image-v2 color="0080d5" type="colored">bkn_n_-24</image-v2>
+            <image-v3 type="mono">bkn_n</image-v3>
+            <weather_type>переменная облачность</weather_type>
+            <weather_type_short>перем. обл.</weather_type_short>
+            <weather_type_tt>алмашучан болытлылык</weather_type_tt>
+            <weather_type_short_tt>алмаш. бол.</weather_type_short_tt>
+            <weather_type_tr>parçalı bulutlu</weather_type_tr>
+            <weather_type_short_tr>prç. az bulutlu</weather_type_short_tr>
+            <weather_type_kz>өзгермелі бұлттар</weather_type_kz>
+            <weather_type_short_kz>өзгермелі бұлттар</weather_type_short_kz>
+            <weather_type_ua>мінлива хмарність</weather_type_ua>
+            <weather_type_short_ua>мінл. хмарн.</weather_type_short_ua>
+            <weather_type_by>пераменная воблачнасць</weather_type_by>
+            <weather_type_short_by>перам. вобл.</weather_type_short_by>
+            <wind_direction>n</wind_direction>
+            <wind_speed>3.0</wind_speed>
+            <humidity>84</humidity>
+            <pressure units="torr">767</pressure>
+            <mslp_pressure units="hPa">1038</mslp_pressure>
+        </day_part>
+    </day>
+    <day date="2014-02-12">
+        <sunrise>09:47</sunrise>
+        <sunset>19:13</sunset>
+        <moon_phase code="growing-moon">15</moon_phase>
+        <moonrise>16:51</moonrise>
+        <moonset>07:57</moonset>
+        <day_part typeid="1" type="morning">
+            <temperature_from>-25</temperature_from>
+            <temperature_to>-23</temperature_to>
+            <temperature-data>
+                <avg bgcolor="B0CFE8">-25</avg>
+                <from>-25</from>
+                <to>-23</to>
+            </temperature-data>
+            <weather_condition code="cloudy"/>
+            <image type="1">n6</image>
+            <image-v2 color="0080d5" type="colored">bkn_n_-24</image-v2>
+            <image-v3 type="mono">bkn_n</image-v3>
+            <weather_type>облачно с прояснениями</weather_type>
+            <weather_type_short>обл. с проясн.</weather_type_short>
+            <weather_type_tt>аязучан болытлы</weather_type_tt>
+            <weather_type_short_tt>аязуч. бол.</weather_type_short_tt>
+            <weather_type_tr>parçalı bulutlu</weather_type_tr>
+            <weather_type_short_tr>prç. bulutlu</weather_type_short_tr>
+            <weather_type_kz>ауыспалы бұлтты</weather_type_kz>
+            <weather_type_short_kz>ауыспалы бұлтты</weather_type_short_kz>
+            <weather_type_ua>хмарно з проясненнями </weather_type_ua>
+            <weather_type_short_ua>хмарно з проясн.</weather_type_short_ua>
+            <weather_type_by>воблачна з праясненнямі</weather_type_by>
+            <weather_type_short_by>вобл. з праясн.</weather_type_short_by>
+            <wind_direction>ne</wind_direction>
+            <wind_speed>2.9</wind_speed>
+            <humidity>90</humidity>
+            <pressure units="torr">767</pressure>
+            <mslp_pressure units="hPa">1039</mslp_pressure>
+        </day_part>
+        <day_part typeid="2" type="day">
+            <temperature_from>-25</temperature_from>
+            <temperature_to>-20</temperature_to>
+            <temperature-data>
+                <avg bgcolor="BBD5E9">-20</avg>
+                <from>-25</from>
+                <to>-20</to>
+            </temperature-data>
+            <weather_condition code="overcast"/>
+            <image type="1">5</image>
+            <image-v2 color="0e7fcd" type="colored">ovc_-20</image-v2>
+            <image-v3 type="mono">ovc</image-v3>
+            <weather_type>облачно</weather_type>
+            <weather_type_short>облачно</weather_type_short>
+            <weather_type_tt>болытлы</weather_type_tt>
+            <weather_type_short_tt>болытлы</weather_type_short_tt>
+            <weather_type_tr>bulutlu</weather_type_tr>
+            <weather_type_short_tr>bulutlu</weather_type_short_tr>
+            <weather_type_kz>бұлтты</weather_type_kz>
+            <weather_type_short_kz>бұлтты</weather_type_short_kz>
+            <weather_type_ua>хмарно</weather_type_ua>
+            <weather_type_short_ua>хмарно</weather_type_short_ua>
+            <weather_type_by>воблачна</weather_type_by>
+            <weather_type_short_by>воблачна</weather_type_short_by>
+            <wind_direction>se</wind_direction>
+            <wind_speed>2.2</wind_speed>
+            <humidity>85</humidity>
+            <pressure units="torr">768</pressure>
+            <mslp_pressure units="hPa">1040</mslp_pressure>
+        </day_part>
+        <day_part typeid="3" type="evening">
+            <temperature_from>-20</temperature_from>
+            <temperature_to>-16</temperature_to>
+            <temperature-data>
+                <avg bgcolor="C0D7EA">-18</avg>
+                <from>-20</from>
+                <to>-16</to>
+            </temperature-data>
+            <weather_condition code="overcast"/>
+            <image type="1">n5</image>
+            <image-v2 color="177fc6" type="colored">ovc_-18</image-v2>
+            <image-v3 type="mono">ovc</image-v3>
+            <weather_type>облачно</weather_type>
+            <weather_type_short>облачно</weather_type_short>
+            <weather_type_tt>болытлы</weather_type_tt>
+            <weather_type_short_tt>болытлы</weather_type_short_tt>
+            <weather_type_tr>bulutlu</weather_type_tr>
+            <weather_type_short_tr>bulutlu</weather_type_short_tr>
+            <weather_type_kz>бұлтты</weather_type_kz>
+            <weather_type_short_kz>бұлтты</weather_type_short_kz>
+            <weather_type_ua>хмарно</weather_type_ua>
+            <weather_type_short_ua>хмарно</weather_type_short_ua>
+            <weather_type_by>воблачна</weather_type_by>
+            <weather_type_short_by>воблачна</weather_type_short_by>
+            <wind_direction>s</wind_direction>
+            <wind_speed>3.3</wind_speed>
+            <humidity>78</humidity>
+            <pressure units="torr">768</pressure>
+            <mslp_pressure units="hPa">1040</mslp_pressure>
+        </day_part>
+        <day_part typeid="4" type="night">
+            <temperature_from>-21</temperature_from>
+            <temperature_to>-18</temperature_to>
+            <temperature-data>
+                <avg bgcolor="BBD5E9">-21</avg>
+                <from>-21</from>
+                <to>-18</to>
+            </temperature-data>
+            <weather_condition code="overcast"/>
+            <image type="1">n5</image>
+            <image-v2 color="0e7fcd" type="colored">ovc_-20</image-v2>
+            <image-v3 type="mono">ovc</image-v3>
+            <weather_type>облачно</weather_type>
+            <weather_type_short>облачно</weather_type_short>
+            <weather_type_tt>болытлы</weather_type_tt>
+            <weather_type_short_tt>болытлы</weather_type_short_tt>
+            <weather_type_tr>bulutlu</weather_type_tr>
+            <weather_type_short_tr>bulutlu</weather_type_short_tr>
+            <weather_type_kz>бұлтты</weather_type_kz>
+            <weather_type_short_kz>бұлтты</weather_type_short_kz>
+            <weather_type_ua>хмарно</weather_type_ua>
+            <weather_type_short_ua>хмарно</weather_type_short_ua>
+            <weather_type_by>воблачна</weather_type_by>
+            <weather_type_short_by>воблачна</weather_type_short_by>
+            <wind_direction>sw</wind_direction>
+            <wind_speed>3.3</wind_speed>
+            <humidity>85</humidity>
+            <pressure units="torr">768</pressure>
+            <mslp_pressure units="hPa">1040</mslp_pressure>
+        </day_part>
+        <day_part typeid="5" type="day_short">
+            <temperature>-16</temperature>
+            <temperature-data>
+                <avg bgcolor="C5DAEA">-16</avg>
+            </temperature-data>
+            <weather_condition code="overcast"/>
+            <image type="1">5</image>
+            <image-v2 color="2584bc" type="colored">ovc_-16</image-v2>
+            <image-v3 type="mono">ovc</image-v3>
+            <weather_type>облачно</weather_type>
+            <weather_type_short>облачно</weather_type_short>
+            <weather_type_tt>болытлы</weather_type_tt>
+            <weather_type_short_tt>болытлы</weather_type_short_tt>
+            <weather_type_tr>bulutlu</weather_type_tr>
+            <weather_type_short_tr>bulutlu</weather_type_short_tr>
+            <weather_type_kz>бұлтты</weather_type_kz>
+            <weather_type_short_kz>бұлтты</weather_type_short_kz>
+            <weather_type_ua>хмарно</weather_type_ua>
+            <weather_type_short_ua>хмарно</weather_type_short_ua>
+            <weather_type_by>воблачна</weather_type_by>
+            <weather_type_short_by>воблачна</weather_type_short_by>
+            <wind_direction>se</wind_direction>
+            <wind_speed>2.2</wind_speed>
+            <humidity>85</humidity>
+            <pressure units="torr">768</pressure>
+            <mslp_pressure units="hPa">1040</mslp_pressure>
+        </day_part>
+        <day_part typeid="6" type="night_short">
+            <temperature>-25</temperature>
+            <temperature-data>
+                <avg bgcolor="B0CFE8">-25</avg>
+            </temperature-data>
+            <weather_condition code="overcast"/>
+            <image type="1">n5</image>
+            <image-v2 color="0080d5" type="colored">ovc_-24</image-v2>
+            <image-v3 type="mono">ovc</image-v3>
+            <weather_type>облачно</weather_type>
+            <weather_type_short>облачно</weather_type_short>
+            <weather_type_tt>болытлы</weather_type_tt>
+            <weather_type_short_tt>болытлы</weather_type_short_tt>
+            <weather_type_tr>bulutlu</weather_type_tr>
+            <weather_type_short_tr>bulutlu</weather_type_short_tr>
+            <weather_type_kz>бұлтты</weather_type_kz>
+            <weather_type_short_kz>бұлтты</weather_type_short_kz>
+            <weather_type_ua>хмарно</weather_type_ua>
+            <weather_type_short_ua>хмарно</weather_type_short_ua>
+            <weather_type_by>воблачна</weather_type_by>
+            <weather_type_short_by>воблачна</weather_type_short_by>
+            <wind_direction>sw</wind_direction>
+            <wind_speed>3.3</wind_speed>
+            <humidity>85</humidity>
+            <pressure units="torr">768</pressure>
+            <mslp_pressure units="hPa">1040</mslp_pressure>
+        </day_part>
+    </day>
+    <day date="2014-02-13">
+        <sunrise>09:45</sunrise>
+        <sunset>19:15</sunset>
+        <moon_phase code="growing-moon">15</moon_phase>
+        <moonrise>17:54</moonrise>
+        <moonset>08:26</moonset>
+        <day_part typeid="1" type="morning">
+            <temperature>-21</temperature>
+            <temperature-data>
+                <avg bgcolor="BBD5E9">-21</avg>
+            </temperature-data>
+            <weather_condition code="overcast"/>
+            <image type="1">n5</image>
+            <image-v2 color="0e7fcd" type="colored">ovc_-20</image-v2>
+            <image-v3 type="mono">ovc</image-v3>
+            <weather_type>облачно</weather_type>
+            <weather_type_short>облачно</weather_type_short>
+            <weather_type_tt>болытлы</weather_type_tt>
+            <weather_type_short_tt>болытлы</weather_type_short_tt>
+            <weather_type_tr>bulutlu</weather_type_tr>
+            <weather_type_short_tr>bulutlu</weather_type_short_tr>
+            <weather_type_kz>бұлтты</weather_type_kz>
+            <weather_type_short_kz>бұлтты</weather_type_short_kz>
+            <weather_type_ua>хмарно</weather_type_ua>
+            <weather_type_short_ua>хмарно</weather_type_short_ua>
+            <weather_type_by>воблачна</weather_type_by>
+            <weather_type_short_by>воблачна</weather_type_short_by>
+            <wind_direction>s</wind_direction>
+            <wind_speed>3.4</wind_speed>
+            <humidity>86</humidity>
+            <pressure units="torr">768</pressure>
+            <mslp_pressure units="hPa">1040</mslp_pressure>
+        </day_part>
+        <day_part typeid="2" type="day">
+            <temperature_from>-21</temperature_from>
+            <temperature_to>-15</temperature_to>
+            <temperature-data>
+                <avg bgcolor="CADDEB">-15</avg>
+                <from>-21</from>
+                <to>-15</to>
+            </temperature-data>
+            <weather_condition code="overcast"/>
+            <image type="1">5</image>
+            <image-v2 color="2a81b9" type="colored">ovc_-14</image-v2>
+            <image-v3 type="mono">ovc</image-v3>
+            <weather_type>облачно</weather_type>
+            <weather_type_short>облачно</weather_type_short>
+            <weather_type_tt>болытлы</weather_type_tt>
+            <weather_type_short_tt>болытлы</weather_type_short_tt>
+            <weather_type_tr>bulutlu</weather_type_tr>
+            <weather_type_short_tr>bulutlu</weather_type_short_tr>
+            <weather_type_kz>бұлтты</weather_type_kz>
+            <weather_type_short_kz>бұлтты</weather_type_short_kz>
+            <weather_type_ua>хмарно</weather_type_ua>
+            <weather_type_short_ua>хмарно</weather_type_short_ua>
+            <weather_type_by>воблачна</weather_type_by>
+            <weather_type_short_by>воблачна</weather_type_short_by>
+            <wind_direction>se</wind_direction>
+            <wind_speed>4.0</wind_speed>
+            <humidity>86</humidity>
+            <pressure units="torr">768</pressure>
+            <mslp_pressure units="hPa">1040</mslp_pressure>
+        </day_part>
+        <day_part typeid="3" type="evening">
+            <temperature_from>-15</temperature_from>
+            <temperature_to>-11</temperature_to>
+            <temperature-data>
+                <avg bgcolor="D0DFEC">-13</avg>
+                <from>-15</from>
+                <to>-11</to>
+            </temperature-data>
+            <weather_condition code="overcast"/>
+            <image type="1">n5</image>
+            <image-v2 color="377daf" type="colored">ovc_-12</image-v2>
+            <image-v3 type="mono">ovc</image-v3>
+            <weather_type>облачно</weather_type>
+            <weather_type_short>облачно</weather_type_short>
+            <weather_type_tt>болытлы</weather_type_tt>
+            <weather_type_short_tt>болытлы</weather_type_short_tt>
+            <weather_type_tr>bulutlu</weather_type_tr>
+            <weather_type_short_tr>bulutlu</weather_type_short_tr>
+            <weather_type_kz>бұлтты</weather_type_kz>
+            <weather_type_short_kz>бұлтты</weather_type_short_kz>
+            <weather_type_ua>хмарно</weather_type_ua>
+            <weather_type_short_ua>хмарно</weather_type_short_ua>
+            <weather_type_by>воблачна</weather_type_by>
+            <weather_type_short_by>воблачна</weather_type_short_by>
+            <wind_direction>s</wind_direction>
+            <wind_speed>3.3</wind_speed>
+            <humidity>80</humidity>
+            <pressure units="torr">767</pressure>
+            <mslp_pressure units="hPa">1039</mslp_pressure>
+        </day_part>
+        <day_part typeid="4" type="night">
+            <temperature_from>-16</temperature_from>
+            <temperature_to>-13</temperature_to>
+            <temperature-data>
+                <avg bgcolor="C5DAEA">-16</avg>
+                <from>-16</from>
+                <to>-13</to>
+            </temperature-data>
+            <weather_condition code="overcast"/>
+            <image type="1">n5</image>
+            <image-v2 color="2584bc" type="colored">ovc_-16</image-v2>
+            <image-v3 type="mono">ovc</image-v3>
+            <weather_type>облачно</weather_type>
+            <weather_type_short>облачно</weather_type_short>
+            <weather_type_tt>болытлы</weather_type_tt>
+            <weather_type_short_tt>болытлы</weather_type_short_tt>
+            <weather_type_tr>bulutlu</weather_type_tr>
+            <weather_type_short_tr>bulutlu</weather_type_short_tr>
+            <weather_type_kz>бұлтты</weather_type_kz>
+            <weather_type_short_kz>бұлтты</weather_type_short_kz>
+            <weather_type_ua>хмарно</weather_type_ua>
+            <weather_type_short_ua>хмарно</weather_type_short_ua>
+            <weather_type_by>воблачна</weather_type_by>
+            <weather_type_short_by>воблачна</weather_type_short_by>
+            <wind_direction>w</wind_direction>
+            <wind_speed>3.1</wind_speed>
+            <humidity>85</humidity>
+            <pressure units="torr">767</pressure>
+            <mslp_pressure units="hPa">1038</mslp_pressure>
+        </day_part>
+        <day_part typeid="5" type="day_short">
+            <temperature>-11</temperature>
+            <temperature-data>
+                <avg bgcolor="D5E2EC">-11</avg>
+            </temperature-data>
+            <weather_condition code="overcast"/>
+            <image type="1">5</image>
+            <image-v2 color="4582a5" type="colored">ovc_-10</image-v2>
+            <image-v3 type="mono">ovc</image-v3>
+            <weather_type>облачно</weather_type>
+            <weather_type_short>облачно</weather_type_short>
+            <weather_type_tt>болытлы</weather_type_tt>
+            <weather_type_short_tt>болытлы</weather_type_short_tt>
+            <weather_type_tr>bulutlu</weather_type_tr>
+            <weather_type_short_tr>bulutlu</weather_type_short_tr>
+            <weather_type_kz>бұлтты</weather_type_kz>
+            <weather_type_short_kz>бұлтты</weather_type_short_kz>
+            <weather_type_ua>хмарно</weather_type_ua>
+            <weather_type_short_ua>хмарно</weather_type_short_ua>
+            <weather_type_by>воблачна</weather_type_by>
+            <weather_type_short_by>воблачна</weather_type_short_by>
+            <wind_direction>se</wind_direction>
+            <wind_speed>4.0</wind_speed>
+            <humidity>86</humidity>
+            <pressure units="torr">768</pressure>
+            <mslp_pressure units="hPa">1040</mslp_pressure>
+        </day_part>
+        <day_part typeid="6" type="night_short">
+            <temperature>-21</temperature>
+            <temperature-data>
+                <avg bgcolor="BBD5E9">-21</avg>
+            </temperature-data>
+            <weather_condition code="overcast"/>
+            <image type="1">n5</image>
+            <image-v2 color="0e7fcd" type="colored">ovc_-20</image-v2>
+            <image-v3 type="mono">ovc</image-v3>
+            <weather_type>облачно</weather_type>
+            <weather_type_short>облачно</weather_type_short>
+            <weather_type_tt>болытлы</weather_type_tt>
+            <weather_type_short_tt>болытлы</weather_type_short_tt>
+            <weather_type_tr>bulutlu</weather_type_tr>
+            <weather_type_short_tr>bulutlu</weather_type_short_tr>
+            <weather_type_kz>бұлтты</weather_type_kz>
+            <weather_type_short_kz>бұлтты</weather_type_short_kz>
+            <weather_type_ua>хмарно</weather_type_ua>
+            <weather_type_short_ua>хмарно</weather_type_short_ua>
+            <weather_type_by>воблачна</weather_type_by>
+            <weather_type_short_by>воблачна</weather_type_short_by>
+            <wind_direction>w</wind_direction>
+            <wind_speed>3.1</wind_speed>
+            <humidity>85</humidity>
+            <pressure units="torr">767</pressure>
+            <mslp_pressure units="hPa">1038</mslp_pressure>
+        </day_part>
+    </day>
+    <day date="2014-02-14">
+        <sunrise>09:42</sunrise>
+        <sunset>19:18</sunset>
+        <moon_phase code="growing-moon">0</moon_phase>
+        <moonrise>19:00</moonrise>
+        <moonset>08:51</moonset>
+        <day_part typeid="1" type="morning">
+            <temperature_from>-17</temperature_from>
+            <temperature_to>-16</temperature_to>
+            <temperature-data>
+                <avg bgcolor="C5DAEA">-17</avg>
+                <from>-17</from>
+                <to>-16</to>
+            </temperature-data>
+            <weather_condition code="overcast"/>
+            <image type="1">n5</image>
+            <image-v2 color="2584bc" type="colored">ovc_-16</image-v2>
+            <image-v3 type="mono">ovc</image-v3>
+            <weather_type>облачно</weather_type>
+            <weather_type_short>облачно</weather_type_short>
+            <weather_type_tt>болытлы</weather_type_tt>
+            <weather_type_short_tt>болытлы</weather_type_short_tt>
+            <weather_type_tr>bulutlu</weather_type_tr>
+            <weather_type_short_tr>bulutlu</weather_type_short_tr>
+            <weather_type_kz>бұлтты</weather_type_kz>
+            <weather_type_short_kz>бұлтты</weather_type_short_kz>
+            <weather_type_ua>хмарно</weather_type_ua>
+            <weather_type_short_ua>хмарно</weather_type_short_ua>
+            <weather_type_by>воблачна</weather_type_by>
+            <weather_type_short_by>воблачна</weather_type_short_by>
+            <wind_direction>s</wind_direction>
+            <wind_speed>3.0</wind_speed>
+            <humidity>86</humidity>
+            <pressure units="torr">766</pressure>
+            <mslp_pressure units="hPa">1037</mslp_pressure>
+        </day_part>
+        <day_part typeid="2" type="day">
+            <temperature_from>-18</temperature_from>
+            <temperature_to>-14</temperature_to>
+            <temperature-data>
+                <avg bgcolor="CADDEB">-14</avg>
+                <from>-18</from>
+                <to>-14</to>
+            </temperature-data>
+            <weather_condition code="overcast"/>
+            <image type="1">5</image>
+            <image-v2 color="2a81b9" type="colored">ovc_-14</image-v2>
+            <image-v3 type="mono">ovc</image-v3>
+            <weather_type>облачно</weather_type>
+            <weather_type_short>облачно</weather_type_short>
+            <weather_type_tt>болытлы</weather_type_tt>
+            <weather_type_short_tt>болытлы</weather_type_short_tt>
+            <weather_type_tr>bulutlu</weather_type_tr>
+            <weather_type_short_tr>bulutlu</weather_type_short_tr>
+            <weather_type_kz>бұлтты</weather_type_kz>
+            <weather_type_short_kz>бұлтты</weather_type_short_kz>
+            <weather_type_ua>хмарно</weather_type_ua>
+            <weather_type_short_ua>хмарно</weather_type_short_ua>
+            <weather_type_by>воблачна</weather_type_by>
+            <weather_type_short_by>воблачна</weather_type_short_by>
+            <wind_direction>se</wind_direction>
+            <wind_speed>3.3</wind_speed>
+            <humidity>87</humidity>
+            <pressure units="torr">765</pressure>
+            <mslp_pressure units="hPa">1036</mslp_pressure>
+        </day_part>
+        <day_part typeid="3" type="evening">
+            <temperature_from>-14</temperature_from>
+            <temperature_to>-11</temperature_to>
+            <temperature-data>
+                <avg bgcolor="D0DFEC">-13</avg>
+                <from>-14</from>
+                <to>-11</to>
+            </temperature-data>
+            <weather_condition code="overcast"/>
+            <image type="1">n5</image>
+            <image-v2 color="377daf" type="colored">ovc_-12</image-v2>
+            <image-v3 type="mono">ovc</image-v3>
+            <weather_type>облачно</weather_type>
+            <weather_type_short>облачно</weather_type_short>
+            <weather_type_tt>болытлы</weather_type_tt>
+            <weather_type_short_tt>болытлы</weather_type_short_tt>
+            <weather_type_tr>bulutlu</weather_type_tr>
+            <weather_type_short_tr>bulutlu</weather_type_short_tr>
+            <weather_type_kz>бұлтты</weather_type_kz>
+            <weather_type_short_kz>бұлтты</weather_type_short_kz>
+            <weather_type_ua>хмарно</weather_type_ua>
+            <weather_type_short_ua>хмарно</weather_type_short_ua>
+            <weather_type_by>воблачна</weather_type_by>
+            <weather_type_short_by>воблачна</weather_type_short_by>
+            <wind_direction>n</wind_direction>
+            <wind_speed>3.1</wind_speed>
+            <humidity>80</humidity>
+            <pressure units="torr">764</pressure>
+            <mslp_pressure units="hPa">1035</mslp_pressure>
+        </day_part>
+        <day_part typeid="4" type="night">
+            <temperature_from>-17</temperature_from>
+            <temperature_to>-13</temperature_to>
+            <temperature-data>
+                <avg bgcolor="C5DAEA">-17</avg>
+                <from>-17</from>
+                <to>-13</to>
+            </temperature-data>
+            <weather_condition code="overcast"/>
+            <image type="1">n5</image>
+            <image-v2 color="2584bc" type="colored">ovc_-16</image-v2>
+            <image-v3 type="mono">ovc</image-v3>
+            <weather_type>облачно</weather_type>
+            <weather_type_short>облачно</weather_type_short>
+            <weather_type_tt>болытлы</weather_type_tt>
+            <weather_type_short_tt>болытлы</weather_type_short_tt>
+            <weather_type_tr>bulutlu</weather_type_tr>
+            <weather_type_short_tr>bulutlu</weather_type_short_tr>
+            <weather_type_kz>бұлтты</weather_type_kz>
+            <weather_type_short_kz>бұлтты</weather_type_short_kz>
+            <weather_type_ua>хмарно</weather_type_ua>
+            <weather_type_short_ua>хмарно</weather_type_short_ua>
+            <weather_type_by>воблачна</weather_type_by>
+            <weather_type_short_by>воблачна</weather_type_short_by>
+            <wind_direction>nw</wind_direction>
+            <wind_speed>3.0</wind_speed>
+            <humidity>89</humidity>
+            <pressure units="torr">764</pressure>
+            <mslp_pressure units="hPa">1034</mslp_pressure>
+        </day_part>
+        <day_part typeid="5" type="day_short">
+            <temperature>-11</temperature>
+            <temperature-data>
+                <avg bgcolor="D5E2EC">-11</avg>
+            </temperature-data>
+            <weather_condition code="overcast"/>
+            <image type="1">5</image>
+            <image-v2 color="4582a5" type="colored">ovc_-10</image-v2>
+            <image-v3 type="mono">ovc</image-v3>
+            <weather_type>облачно</weather_type>
+            <weather_type_short>облачно</weather_type_short>
+            <weather_type_tt>болытлы</weather_type_tt>
+            <weather_type_short_tt>болытлы</weather_type_short_tt>
+            <weather_type_tr>bulutlu</weather_type_tr>
+            <weather_type_short_tr>bulutlu</weather_type_short_tr>
+            <weather_type_kz>бұлтты</weather_type_kz>
+            <weather_type_short_kz>бұлтты</weather_type_short_kz>
+            <weather_type_ua>хмарно</weather_type_ua>
+            <weather_type_short_ua>хмарно</weather_type_short_ua>
+            <weather_type_by>воблачна</weather_type_by>
+            <weather_type_short_by>воблачна</weather_type_short_by>
+            <wind_direction>se</wind_direction>
+            <wind_speed>3.3</wind_speed>
+            <humidity>87</humidity>
+            <pressure units="torr">765</pressure>
+            <mslp_pressure units="hPa">1036</mslp_pressure>
+        </day_part>
+        <day_part typeid="6" type="night_short">
+            <temperature>-18</temperature>
+            <temperature-data>
+                <avg bgcolor="C0D7EA">-18</avg>
+            </temperature-data>
+            <weather_condition code="overcast"/>
+            <image type="1">n5</image>
+            <image-v2 color="177fc6" type="colored">ovc_-18</image-v2>
+            <image-v3 type="mono">ovc</image-v3>
+            <weather_type>облачно</weather_type>
+            <weather_type_short>облачно</weather_type_short>
+            <weather_type_tt>болытлы</weather_type_tt>
+            <weather_type_short_tt>болытлы</weather_type_short_tt>
+            <weather_type_tr>bulutlu</weather_type_tr>
+            <weather_type_short_tr>bulutlu</weather_type_short_tr>
+            <weather_type_kz>бұлтты</weather_type_kz>
+            <weather_type_short_kz>бұлтты</weather_type_short_kz>
+            <weather_type_ua>хмарно</weather_type_ua>
+            <weather_type_short_ua>хмарно</weather_type_short_ua>
+            <weather_type_by>воблачна</weather_type_by>
+            <weather_type_short_by>воблачна</weather_type_short_by>
+            <wind_direction>nw</wind_direction>
+            <wind_speed>3.0</wind_speed>
+            <humidity>89</humidity>
+            <pressure units="torr">764</pressure>
+            <mslp_pressure units="hPa">1034</mslp_pressure>
+        </day_part>
+    </day>
+    <day date="2014-02-15">
+        <sunrise>09:40</sunrise>
+        <sunset>19:20</sunset>
+        <moon_phase code="full-moon">0</moon_phase>
+        <moonrise>20:07</moonrise>
+        <moonset>09:13</moonset>
+        <day_part typeid="1" type="morning">
+            <temperature_from>-18</temperature_from>
+            <temperature_to>-17</temperature_to>
+            <temperature-data>
+                <avg bgcolor="C0D7EA">-18</avg>
+                <from>-18</from>
+                <to>-17</to>
+            </temperature-data>
+            <weather_condition code="overcast"/>
+            <image type="1">n5</image>
+            <image-v2 color="177fc6" type="colored">ovc_-18</image-v2>
+            <image-v3 type="mono">ovc</image-v3>
+            <weather_type>облачно</weather_type>
+            <weather_type_short>облачно</weather_type_short>
+            <weather_type_tt>болытлы</weather_type_tt>
+            <weather_type_short_tt>болытлы</weather_type_short_tt>
+            <weather_type_tr>bulutlu</weather_type_tr>
+            <weather_type_short_tr>bulutlu</weather_type_short_tr>
+            <weather_type_kz>бұлтты</weather_type_kz>
+            <weather_type_short_kz>бұлтты</weather_type_short_kz>
+            <weather_type_ua>хмарно</weather_type_ua>
+            <weather_type_short_ua>хмарно</weather_type_short_ua>
+            <weather_type_by>воблачна</weather_type_by>
+            <weather_type_short_by>воблачна</weather_type_short_by>
+            <wind_direction>nw</wind_direction>
+            <wind_speed>3.0</wind_speed>
+            <humidity>85</humidity>
+            <pressure units="torr">764</pressure>
+            <mslp_pressure units="hPa">1035</mslp_pressure>
+        </day_part>
+        <day_part typeid="2" type="day">
+            <temperature_from>-19</temperature_from>
+            <temperature_to>-15</temperature_to>
+            <temperature-data>
+                <avg bgcolor="CADDEB">-15</avg>
+                <from>-19</from>
+                <to>-15</to>
+            </temperature-data>
+            <weather_condition code="overcast"/>
+            <image type="1">5</image>
+            <image-v2 color="2a81b9" type="colored">ovc_-14</image-v2>
+            <image-v3 type="mono">ovc</image-v3>
+            <weather_type>облачно</weather_type>
+            <weather_type_short>облачно</weather_type_short>
+            <weather_type_tt>болытлы</weather_type_tt>
+            <weather_type_short_tt>болытлы</weather_type_short_tt>
+            <weather_type_tr>bulutlu</weather_type_tr>
+            <weather_type_short_tr>bulutlu</weather_type_short_tr>
+            <weather_type_kz>бұлтты</weather_type_kz>
+            <weather_type_short_kz>бұлтты</weather_type_short_kz>
+            <weather_type_ua>хмарно</weather_type_ua>
+            <weather_type_short_ua>хмарно</weather_type_short_ua>
+            <weather_type_by>воблачна</weather_type_by>
+            <weather_type_short_by>воблачна</weather_type_short_by>
+            <wind_direction>sw</wind_direction>
+            <wind_speed>2.4</wind_speed>
+            <humidity>79</humidity>
+            <pressure units="torr">764</pressure>
+            <mslp_pressure units="hPa">1035</mslp_pressure>
+        </day_part>
+        <day_part typeid="3" type="evening">
+            <temperature_from>-15</temperature_from>
+            <temperature_to>-12</temperature_to>
+            <temperature-data>
+                <avg bgcolor="CADDEB">-15</avg>
+                <from>-15</from>
+                <to>-12</to>
+            </temperature-data>
+            <weather_condition code="overcast"/>
+            <image type="1">n5</image>
+            <image-v2 color="2a81b9" type="colored">ovc_-14</image-v2>
+            <image-v3 type="mono">ovc</image-v3>
+            <weather_type>облачно</weather_type>
+            <weather_type_short>облачно</weather_type_short>
+            <weather_type_tt>болытлы</weather_type_tt>
+            <weather_type_short_tt>болытлы</weather_type_short_tt>
+            <weather_type_tr>bulutlu</weather_type_tr>
+            <weather_type_short_tr>bulutlu</weather_type_short_tr>
+            <weather_type_kz>бұлтты</weather_type_kz>
+            <weather_type_short_kz>бұлтты</weather_type_short_kz>
+            <weather_type_ua>хмарно</weather_type_ua>
+            <weather_type_short_ua>хмарно</weather_type_short_ua>
+            <weather_type_by>воблачна</weather_type_by>
+            <weather_type_short_by>воблачна</weather_type_short_by>
+            <wind_direction>s</wind_direction>
+            <wind_speed>2.8</wind_speed>
+            <humidity>80</humidity>
+            <pressure units="torr">764</pressure>
+            <mslp_pressure units="hPa">1035</mslp_pressure>
+        </day_part>
+        <day_part typeid="4" type="night">
+            <temperature_from>-19</temperature_from>
+            <temperature_to>-15</temperature_to>
+            <temperature-data>
+                <avg bgcolor="C0D7EA">-19</avg>
+                <from>-19</from>
+                <to>-15</to>
+            </temperature-data>
+            <weather_condition code="overcast"/>
+            <image type="1">n5</image>
+            <image-v2 color="177fc6" type="colored">ovc_-18</image-v2>
+            <image-v3 type="mono">ovc</image-v3>
+            <weather_type>облачно</weather_type>
+            <weather_type_short>облачно</weather_type_short>
+            <weather_type_tt>болытлы</weather_type_tt>
+            <weather_type_short_tt>болытлы</weather_type_short_tt>
+            <weather_type_tr>bulutlu</weather_type_tr>
+            <weather_type_short_tr>bulutlu</weather_type_short_tr>
+            <weather_type_kz>бұлтты</weather_type_kz>
+            <weather_type_short_kz>бұлтты</weather_type_short_kz>
+            <weather_type_ua>хмарно</weather_type_ua>
+            <weather_type_short_ua>хмарно</weather_type_short_ua>
+            <weather_type_by>воблачна</weather_type_by>
+            <weather_type_short_by>воблачна</weather_type_short_by>
+            <wind_direction>sw</wind_direction>
+            <wind_speed>3.0</wind_speed>
+            <humidity>68</humidity>
+            <pressure units="torr">763</pressure>
+            <mslp_pressure units="hPa">1033</mslp_pressure>
+        </day_part>
+        <day_part typeid="5" type="day_short">
+            <temperature>-12</temperature>
+            <temperature-data>
+                <avg bgcolor="D0DFEC">-12</avg>
+            </temperature-data>
+            <weather_condition code="overcast"/>
+            <image type="1">5</image>
+            <image-v2 color="377daf" type="colored">ovc_-12</image-v2>
+            <image-v3 type="mono">ovc</image-v3>
+            <weather_type>облачно</weather_type>
+            <weather_type_short>облачно</weather_type_short>
+            <weather_type_tt>болытлы</weather_type_tt>
+            <weather_type_short_tt>болытлы</weather_type_short_tt>
+            <weather_type_tr>bulutlu</weather_type_tr>
+            <weather_type_short_tr>bulutlu</weather_type_short_tr>
+            <weather_type_kz>бұлтты</weather_type_kz>
+            <weather_type_short_kz>бұлтты</weather_type_short_kz>
+            <weather_type_ua>хмарно</weather_type_ua>
+            <weather_type_short_ua>хмарно</weather_type_short_ua>
+            <weather_type_by>воблачна</weather_type_by>
+            <weather_type_short_by>воблачна</weather_type_short_by>
+            <wind_direction>sw</wind_direction>
+            <wind_speed>2.4</wind_speed>
+            <humidity>79</humidity>
+            <pressure units="torr">764</pressure>
+            <mslp_pressure units="hPa">1035</mslp_pressure>
+        </day_part>
+        <day_part typeid="6" type="night_short">
+            <temperature>-19</temperature>
+            <temperature-data>
+                <avg bgcolor="C0D7EA">-19</avg>
+            </temperature-data>
+            <weather_condition code="overcast"/>
+            <image type="1">n5</image>
+            <image-v2 color="177fc6" type="colored">ovc_-18</image-v2>
+            <image-v3 type="mono">ovc</image-v3>
+            <weather_type>облачно</weather_type>
+            <weather_type_short>облачно</weather_type_short>
+            <weather_type_tt>болытлы</weather_type_tt>
+            <weather_type_short_tt>болытлы</weather_type_short_tt>
+            <weather_type_tr>bulutlu</weather_type_tr>
+            <weather_type_short_tr>bulutlu</weather_type_short_tr>
+            <weather_type_kz>бұлтты</weather_type_kz>
+            <weather_type_short_kz>бұлтты</weather_type_short_kz>
+            <weather_type_ua>хмарно</weather_type_ua>
+            <weather_type_short_ua>хмарно</weather_type_short_ua>
+            <weather_type_by>воблачна</weather_type_by>
+            <weather_type_short_by>воблачна</weather_type_short_by>
+            <wind_direction>sw</wind_direction>
+            <wind_speed>3.0</wind_speed>
+            <humidity>68</humidity>
+            <pressure units="torr">763</pressure>
+            <mslp_pressure units="hPa">1033</mslp_pressure>
+        </day_part>
+    </day>
+</forecast>
