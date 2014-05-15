@@ -27,6 +27,11 @@
             <artifactId>commons-lang3</artifactId>
             <version>${commons-lang3.version}</version>
         </dependency>
+        <dependency>
+            <groupId>com.beust</groupId>
+            <artifactId>jcommander</artifactId>
+            <version>1.30</version>
+        </dependency>
     </dependencies>
 
     <build>
@@ -68,7 +73,7 @@
                             <goal>copy-dependencies</goal>
                         </goals>
                         <configuration>
-                            <includeGroupIds>log4j,org.apache.commons</includeGroupIds>
+                            <includeGroupIds>log4j,org.apache.commons,com.beust</includeGroupIds>
                             <outputDirectory>${project.build.directory}/dependency-jars/</outputDirectory>
                         </configuration>
                     </execution>
