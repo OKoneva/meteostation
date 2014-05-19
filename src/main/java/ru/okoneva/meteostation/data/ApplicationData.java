@@ -53,26 +53,27 @@ public class ApplicationData {
 
     public void putWeather(final String cityName, final Weather weather) {
 
+        final String transformedCityName = City.transformCityName(cityName);
         synchronized (mutex) {
-            final City city = cityMap.get(cityName);
+            final City city = cityMap.get(transformedCityName);
             if (city != null) {
-                weatherMap.put(cityName, weather);
-                weatherChanged(cityName, weather);
+                weatherMap.put(transformedCityName, weather);
+                weatherChanged(transformedCityName, weather);
             } else {
-                LOG.info("City " + cityName + " doesn't presented in the list");
-                throw new IllegalArgumentException("City " + cityName + " doesn't presented in the list");
+                LOG.info("City " + transformedCityName + " doesn't presented in the list");
+                throw new IllegalArgumentException("City " + transformedCityName + " doesn't presented in the list");
             }
         }
     }
 
     private void weatherChanged(final String cityName, final Weather weather) {
-        final String fileName = getFileName(cityName);
+        final String fileName = getFileName(City.transformCityName(cityName));
         final WeatherDisplayer weatherDisplayer = new WeatherDisplayer(fileName, weather.toFileRow());
         timerManager.execute(weatherDisplayer);
     }
 
     public Weather retrieveWeather(final String cityName) {
-        return weatherMap.get(cityName);
+        return weatherMap.get(City.transformCityName(cityName));
     }
 
     public void addCity(final String cityName, final int surveyInterval) {
@@ -106,56 +107,60 @@ public class ApplicationData {
 
     public void removeCity(final String cityName) {
 
+        final String transformedCityName = City.transformCityName(cityName);
         synchronized (mutex) {
-            final City city = cityMap.remove(cityName);
+            final City city = cityMap.remove(transformedCityName);
             if (city != null) {
-                timerManager.cancelTask(cityName);
-                weatherMap.remove(cityName);
-                LOG.info("City " + cityName + " is removed from the list");
+                timerManager.cancelTask(transformedCityName);
+                weatherMap.remove(transformedCityName);
+                LOG.info("City " + transformedCityName + " is removed from the list");
             } else {
-                LOG.info("City " + cityName + " doesn't presented in the list");
-                throw new IllegalArgumentException("City " + cityName + " doesn't presented in the list");
+                LOG.info("City " + transformedCityName + " doesn't presented in the list");
+                throw new IllegalArgumentException("City " + transformedCityName + " doesn't presented in the list");
             }
         }
     }
 
     public void changeSurveyInterval(final String cityName, final int surveyInterval) {
 
+        final String transformedCityName = City.transformCityName(cityName);
         synchronized (mutex) {
-            final City city = cityMap.get(cityName);
+            final City city = cityMap.get(transformedCityName);
             if (city != null) {
                 city.setSurveyInterval(surveyInterval);
                 final WeatherMonitor monitor =
-                    new WeatherMonitor(city.getCityId(), cityName, this);
-                timerManager.scheduleWithFixedRate(monitor, city.getSurveyInterval(), cityName);
-                LOG.info("SurveyInterval is set to " + surveyInterval + " for the City " + cityName);
+                    new WeatherMonitor(city.getCityId(), transformedCityName, this);
+                timerManager.scheduleWithFixedRate(monitor, city.getSurveyInterval(), transformedCityName);
+                LOG.info("SurveyInterval is set to " + surveyInterval + " for the City " + transformedCityName);
             } else {
-                LOG.info("City " + cityName + " doesn't presented in the list");
-                throw new IllegalArgumentException("City " + cityName + " doesn't presented in the list");
+                LOG.info("City " + transformedCityName + " doesn't presented in the list");
+                throw new IllegalArgumentException("City " + transformedCityName + " doesn't presented in the list");
             }
         }
     }
 
     public void changeFileName(final String cityName, final String fileName) {
 
-        final City city = cityMap.get(cityName);
+        final String transformedCityName = City.transformCityName(cityName);
+        final City city = cityMap.get(transformedCityName);
         if (city != null) {
             city.setFileName(fileName);
-            LOG.info("File name for city " + cityName + " is set to " + fileName);
+            LOG.info("File name for city " + transformedCityName + " is set to " + fileName);
         } else {
-            LOG.info("City " + cityName + " doesn't presented in the list");
-            throw new IllegalArgumentException("City " + cityName + " doesn't presented in the list");
+            LOG.info("City " + transformedCityName + " doesn't presented in the list");
+            throw new IllegalArgumentException("City " + transformedCityName + " doesn't presented in the list");
         }
     }
 
     public City retrieveCity(final String cityName) {
 
-        final City city = cityMap.get(cityName);
+        final String transformedCityName = City.transformCityName(cityName);
+        final City city = cityMap.get(transformedCityName);
         if (city != null) {
             return city;
         } else {
-            LOG.info("City " + cityName + " doesn't presented in the list");
-            throw new IllegalArgumentException("City " + cityName + " doesn't presented in the list");
+            LOG.info("City " + transformedCityName + " doesn't presented in the list");
+            throw new IllegalArgumentException("City " + transformedCityName + " doesn't presented in the list");
         }
     }
 
@@ -174,12 +179,13 @@ public class ApplicationData {
 
     public String getFileName(final String cityName) {
 
-        final City city = cityMap.get(cityName);
+        final String transformedCityName = City.transformCityName(cityName);
+        final City city = cityMap.get(transformedCityName);
         if (city != null) {
             return city.getFileName();
         } else {
-            LOG.info("City " + cityName + " doesn't presented in the list");
-            throw new IllegalArgumentException("City " + cityName + " doesn't presented in the list");
+            LOG.info("City " + transformedCityName + " doesn't presented in the list");
+            throw new IllegalArgumentException("City " + transformedCityName + " doesn't presented in the list");
         }
     }
 

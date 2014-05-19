@@ -2,14 +2,21 @@ package ru.okoneva.meteostation;
 
 import ru.okoneva.meteostation.data.ApplicationData;
 import ru.okoneva.meteostation.service.city.XmlCityParser;
+import ru.okoneva.meteostation.service.command.AddCityCommand;
+import ru.okoneva.meteostation.service.command.ChangeFileCommand;
+import ru.okoneva.meteostation.service.command.ChangePeriodCommand;
+import ru.okoneva.meteostation.service.command.CitiesCommand;
+import ru.okoneva.meteostation.service.command.CityCommand;
+import ru.okoneva.meteostation.service.command.ExitCommand;
+import ru.okoneva.meteostation.service.command.GetWeatherCommand;
+import ru.okoneva.meteostation.service.command.JCommanderProvider;
+import ru.okoneva.meteostation.service.command.StopCityCommand;
 import ru.okoneva.meteostation.service.timermanager.TimerManager;
 import ru.okoneva.meteostation.service.weather.checker.XmlWeatherChecker;
-import ru.okoneva.meteostation.service.command.CommandFactory;
 import ru.okoneva.meteostation.service.shell.Shell;
 
 import java.io.Console;
-import java.util.HashMap;
-import java.util.Map;
+
 
 /**
  * Created by Olga Koneva
@@ -36,9 +43,17 @@ public class Main {
 
         Console console = System.console();
 
-        final CommandFactory commandFactory = new CommandFactory(applicationData, console);
+        final JCommanderProvider provider = new JCommanderProvider();
+        provider.addCommand(new AddCityCommand(applicationData, console));
+        provider.addCommand(new ChangeFileCommand(applicationData, console));
+        provider.addCommand(new ChangePeriodCommand(applicationData, console));
+        provider.addCommand(new CitiesCommand(applicationData, console));
+        provider.addCommand(new CityCommand(applicationData, console));
+        provider.addCommand(new ExitCommand(applicationData, console));
+        provider.addCommand(new GetWeatherCommand(applicationData, console));
+        provider.addCommand(new StopCityCommand(applicationData, console));
 
-        final Shell shell = new Shell(commandFactory);
+        final Shell shell = new Shell(provider);
         shell.start(console);
     }
 }

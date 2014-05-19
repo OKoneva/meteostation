@@ -1,30 +1,31 @@
 package ru.okoneva.meteostation.service.command;
 
+import com.beust.jcommander.Parameter;
+import com.beust.jcommander.Parameters;
 import ru.okoneva.meteostation.data.ApplicationData;
-import ru.okoneva.meteostation.service.command.parameters.InputParameterType;
-import ru.okoneva.meteostation.service.command.parameters.ParameterValue;
 
 import java.io.Console;
-import java.util.Map;
 
 /**
  * Created by Olga Koneva
  * Date: 09.04.2014:1:33
  * Version 1.0
  */
+@Parameters(commandDescription = "Put out information about the city", commandNames = "city")
 public class CityCommand extends Action {
+
+    @Parameter(names = "-n", description = "City name", required = true)
+    private String cityName;
 
     public CityCommand(
         final ApplicationData applicationData,
-        final Console console,
-        final Map<InputParameterType, ParameterValue> params
+        final Console console
     ) {
-        super(applicationData, console, params);
+        super(applicationData, console);
     }
 
     @Override
     public void execute() {
-        final String cityName = (String) params.get(InputParameterType.CITY_NAME).getValue();
         console.printf(applicationData.retrieveCity(cityName) + "%n");
     }
 }

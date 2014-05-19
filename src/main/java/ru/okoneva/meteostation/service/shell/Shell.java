@@ -1,18 +1,14 @@
 package ru.okoneva.meteostation.service.shell;
 
+import com.beust.jcommander.JCommander;
+import com.beust.jcommander.MissingCommandException;
+import com.beust.jcommander.ParameterException;
 import org.apache.log4j.Logger;
+import ru.okoneva.meteostation.service.command.JCommanderProvider;
 import ru.okoneva.meteostation.service.command.Action;
-import ru.okoneva.meteostation.service.command.CommandFactory;
-import ru.okoneva.meteostation.service.command.CommandType;
-import ru.okoneva.meteostation.service.command.parameters.InputParameterType;
-import ru.okoneva.meteostation.service.command.parameters.ParameterParsingException;
-import ru.okoneva.meteostation.service.command.parameters.ParameterValue;
 
 import java.io.Console;
 import java.util.Date;
-import java.util.HashMap;
-import java.util.Map;
-import java.util.Scanner;
 
 /**
  * Created by Olga Koneva
@@ -32,10 +28,10 @@ public class Shell {
 
     private static final Logger LOG = Logger.getLogger(Action.class);
 
-    private CommandFactory commandFactory;
+    private JCommanderProvider provider;
 
-    public Shell(final CommandFactory commandFactory) {
-        this.commandFactory = commandFactory;
+    public Shell(final JCommanderProvider provider) {
+        this.provider = provider;
     }
 
     public void start(final Console console) {
@@ -48,40 +44,24 @@ public class Shell {
 
     private void execCommandLoop(final Console console) {
         while (true) {
-            String commandLine = console.readLine(PROMPT, new Date());
-            Scanner scanner = new Scanner(commandLine);
 
-            if (scanner.hasNext()) {
-                final String commandName = scanner.next().toUpperCase();
-                LOG.info(commandName);
-                try {
-                    final CommandType commandType = Enum.valueOf(CommandType.class, commandName);
-                    final Map<InputParameterType, ParameterValue> params =
-                        new HashMap<InputParameterType, ParameterValue>();
-
-                    for (InputParameterType param : commandType.getParameters()) {
-                        final String nextInputVal = scanner.hasNext() ? scanner.next() : null;
-                        params.put(param, param.transformStringToParameter(nextInputVal));
-                    }
-
-                    Action action = commandFactory.createCommand(
-                        commandType,
-                        params
-                    );
-                    try {
-                        action.execute();
-                    } catch (Exception e){
-                        console.printf(COMMAND_ERROR, commandType, e.getMessage());
-                        LOG.error(e.getMessage());
-                    }
-
-                } catch (IllegalArgumentException e) {
-                    console.printf(UNKNOWN_COMMAND, commandName);
-                } catch (ParameterParsingException e) {
-                    console.printf(WRONG_PARAMETER, e.getMessage());
-                }
+            final JCommander commander = provider.get();
+            try {
+                final String commandLine = console.readLine(PROMPT, new Date());
+                commander.parse(commandLine.split(" "));
+                ((Action) commander.getCommands().get(commander.getParsedCommand()).getObjects().get(0)).execute();
+            } catch (MissingCommandException e){
+                console.printf(UNKNOWN_COMMAND, e.getMessage());
+                commander.usage();
+                LOG.error(e.getMessage());
+            } catch (ParameterException e){
+                console.printf(WRONG_PARAMETER, e.getMessage());
+                commander.usage(commander.getParsedCommand());
+                LOG.error(e.getMessage());
+            } catch (Exception e){
+                console.printf(COMMAND_ERROR, commander.getParsedCommand(), e.getMessage());
+                LOG.error(e.getMessage());
             }
-            scanner.close();
         }
     }
 }

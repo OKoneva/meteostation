@@ -1,31 +1,34 @@
 package ru.okoneva.meteostation.service.command;
 
+import com.beust.jcommander.Parameter;
+import com.beust.jcommander.Parameters;
 import ru.okoneva.meteostation.data.ApplicationData;
-import ru.okoneva.meteostation.service.command.parameters.InputParameterType;
-import ru.okoneva.meteostation.service.command.parameters.ParameterValue;
 
 import java.io.Console;
-import java.util.Map;
 
 /**
  * Created by Olga Koneva
  * Date: 09.04.2014:1:32
  * Version 1.0
  */
+@Parameters(commandDescription = "Change file name for the city", commandNames = "change_file")
 public class ChangeFileCommand extends Action {
+
+    @Parameter(names = "-n", description = "City name", required = true)
+    private String cityName;
+
+    @Parameter(names = "-f", description = "File name", required = true)
+    private String fileName;
 
     public ChangeFileCommand(
         final ApplicationData applicationData,
-        final Console console,
-        final Map<InputParameterType, ParameterValue> params
+        final Console console
     ) {
-        super(applicationData, console, params);
+        super(applicationData, console);
     }
 
     @Override
     public void execute() {
-        final String cityName = (String) params.get(InputParameterType.CITY_NAME).getValue();
-        final String fileName = (String) params.get(InputParameterType.FILE_NAME).getValue();
         applicationData.changeFileName(cityName, fileName);
     }
 }
