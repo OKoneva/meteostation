@@ -17,7 +17,7 @@ public class JCommanderProvider {
      * Constructs the new JCommander instance with all commands.
 
      */
-    public JCommander get() {
+    public JCommander create() {
         final JCommander commander = new JCommander();
         for (Action command : commands) {
             commander.addCommand(command);

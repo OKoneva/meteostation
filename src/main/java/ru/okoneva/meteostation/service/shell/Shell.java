@@ -45,7 +45,7 @@ public class Shell {
     private void execCommandLoop(final Console console) {
         while (true) {
 
-            final JCommander commander = provider.get();
+            final JCommander commander = provider.create();
             try {
                 final String commandLine = console.readLine(PROMPT, new Date());
                 commander.parse(commandLine.split(" "));
