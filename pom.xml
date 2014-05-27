@@ -32,6 +32,11 @@
             <artifactId>jcommander</artifactId>
             <version>1.30</version>
         </dependency>
+        <dependency>
+            <groupId>com.typesafe</groupId>
+            <artifactId>config</artifactId>
+            <version>1.2.1</version>
+        </dependency>
     </dependencies>
 
     <build>
@@ -73,7 +78,7 @@
                             <goal>copy-dependencies</goal>
                         </goals>
                         <configuration>
-                            <includeGroupIds>log4j,org.apache.commons,com.beust</includeGroupIds>
+                            <includeGroupIds>log4j,org.apache.commons,com.beust,com.typesafe</includeGroupIds>
                             <outputDirectory>${project.build.directory}/dependency-jars/</outputDirectory>
                         </configuration>
                     </execution>
